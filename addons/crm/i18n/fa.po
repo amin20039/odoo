@@ -44,22 +44,22 @@ msgstr "تعداد ملاقات ها"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__number_of_months
 msgid "# Months"
-msgstr ""
+msgstr "ماه ها"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_count
 msgid "# Opportunities"
-msgstr ""
+msgstr "فرصت ها"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_overdue_count
 msgid "# Overdue Opportunities"
-msgstr ""
+msgstr "فرصت ها"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_unassigned_count
 msgid "# Unassigned Leads"
-msgstr ""
+msgstr "سرنخ های تعیین نشده"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -69,12 +69,12 @@ msgstr "% دیگر"
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "% endif"
-msgstr ""
+msgstr "پایان اگر"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "% if record and record.alias_domain"
-msgstr ""
+msgstr "اگر ثبت و ضبط کنید"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -87,14 +87,14 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "%s's opportunity"
-msgstr ""
+msgstr "فرصت"
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "<b>Create your first opportunity.</b>"
-msgstr ""
+msgstr "اولین فرصتت رو بساز"
 
 #. module: crm
 #. openerp-web
@@ -103,19 +103,19 @@ msgstr ""
 msgid ""
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your"
 " sales cycle."
-msgstr ""
+msgstr "فرصت ها را راها کنید<b> هنگامی که بین ستون ها پیش میبرید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "<b>Predictive Lead Scoring</b>"
-msgstr ""
+msgstr ""امتیازدهی را پیش بینی کنید
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "<b>Write a few letters</b> to look for a company, or create a new one."
-msgstr ""
+msgstr "تعداد کمی نامه بنویسید<b> برای پیدا کردن یک شرکت یا ساختن یک شرکت جدید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_partner_kanban_view
@@ -290,7 +290,9 @@ msgid ""
 "progress bar to filter opportunities based on their next activities' status."
 " Click on the grey area of the progress bar to see all opportunities that "
 "have no next activity."
-msgstr ""
+msgstr "یک نکته ی عالی برای افزایش کارایی فروش این است که همیشه در هر فرصتی گام بعدی را تعیین کنید.
+برای مدیریت فعالیت های جاری. برای فیلتر کردن فرصت ها بر اساس فعالیت های بعدی روی هر وضعیت نوار پیشرفت کلیک کنید.
+روی قسمت خاکستری نوار پیشرفت کلیک کنید تا همه فرصت هایی کهفعالیت بعدی ندارند را ببینید. "
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -313,7 +315,7 @@ msgstr "فعال"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__lead_tomerge_ids
 msgid "Active Leads"
-msgstr ""
+msgstr "سرنخ های فعال"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_ids
@@ -342,7 +344,7 @@ msgstr "فعالیت"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__body
 msgid "Activity Description"
-msgstr ""
+msgstr "شرح فعالیت"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_exception_decoration
@@ -373,7 +375,7 @@ msgstr "انواع فعالیت"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Activity by"
-msgstr ""
+msgstr "فعالیت از طرف"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -383,7 +385,7 @@ msgstr "افزودن توضیح "
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Add a qualification step before the creation of an opportunity"
-msgstr ""
+msgstr "قبل از ایجاد فرصت یک مرحله صلاحیت اضافه کنید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -420,7 +422,7 @@ msgstr "مدل استعاری"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "All set. Let’s <b>Schedule</b> it."
-msgstr ""
+msgstr "همه چی را. اجازه میدهد<b> برنامه ریزی</b> کنید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -430,7 +432,7 @@ msgstr "تحلیل"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__deduplicate
 msgid "Apply deduplication"
-msgstr ""
+msgstr "کپی برداری را قبول کنید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -450,12 +452,12 @@ msgstr "محول کردن فرصت ها به"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Assign these opportunities to"
-msgstr ""
+msgstr "این فرصت ها را ایجاد کنیم به"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner
 msgid "Assign this opportunity to"
-msgstr ""
+msgstr "این فرصت ها را ایجاد کنیم به"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__author_id
@@ -466,7 +468,7 @@ msgstr "محول شد به"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__date_open
 msgid "Assignment Date"
-msgstr ""
+msgstr "تاریخ واگذاری"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__lead_id
@@ -482,33 +484,33 @@ msgstr "تعداد پیوست"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__automated_probability
 msgid "Automated Probability"
-msgstr ""
+msgstr "احتمال خودکار"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_blacklisted
 msgid "Blacklist"
-msgstr ""
+msgstr "لیست سیاه"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__mobile_blacklisted
 msgid "Blacklisted Phone Is Mobile"
-msgstr ""
+msgstr "گوشی در لیست سیاه موبایل است"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
-msgstr ""
+msgstr "گوشی در لیست سیاه تلفن است"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "Boom! Team record for the past 30 days."
-msgstr ""
+msgstr "بوم! رکورد تیم در 30 روز گذشته"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_bounce
 msgid "Bounce"
-msgstr ""
+msgstr "جهش"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -516,19 +518,19 @@ msgstr ""
 msgid ""
 "By saving this change, the customer email and phone number will also be "
 "updated."
-msgstr ""
+msgstr "با ذخیره کردن این تغییر. ایمیل و شماره موبایل مشتری بروزرسانی خواهد شد"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "By saving this change, the customer email will also be updated."
-msgstr ""
+msgstr "با ذخیره کردن این تغییر. ایمیل و شماره موبایل مشتری بروزرسانی خواهد شد."
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "By saving this change, the customer phone number will also be updated."
-msgstr ""
+msgstr "با ذخیره کردن این تغییر. ایمیل و شماره موبایل مشتری بروزرسانی خواهد شد."
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_menu_root
@@ -540,17 +542,17 @@ msgstr "CRM"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_activity_report
 msgid "CRM Activity Analysis"
-msgstr ""
+msgstr "تجزیه و تحلیل فعالیت های CRM"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_recurring_plan
 msgid "CRM Recurring revenue plans"
-msgstr ""
+msgstr "برنامه های درآمد مکرر CRM"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_stage
 msgid "CRM Stages"
-msgstr ""
+msgstr "مراحل CRM"
 
 #. module: crm
 #: model:ir.model,name:crm.model_calendar_event
@@ -587,12 +589,13 @@ msgstr "کانال"
 msgid ""
 "Check this box to filter and qualify incoming requests as leads before "
 "converting them into opportunities and assigning them to a salesperson."
-msgstr ""
+msgstr "این کادر را علامت بزنید تا درخواست های دریافتی را قبلا به عنوان سرنخ فیلتر کنید.
+تبدیل آن ها به فرصت و واگذاری آن ها به یک فروشنده."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_opportunities
 msgid "Check this box to manage a presales process with opportunities."
-msgstr ""
+msgstr "برای مدیریت فرایند پیش فروش با فرصت ها این کادر را علامت بزنید"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__city
@@ -608,14 +611,15 @@ msgstr "شهر"
 msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, "
 "Service"
-msgstr ""
+msgstr " دسته بندی و تجزیه و تحلیل دسته های سرنخ/فرصت مانند: آموزش
+سرویس"
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "Click on the breadcrumb to go back to the Pipeline."
-msgstr ""
+msgstr "روی پودر سوخاری کلیک کنید تا به خط لوله بازگردید"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_closed
@@ -657,7 +661,7 @@ msgstr "نام شرکت"
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Completion Date"
-msgstr ""
+msgstr "روز اتمام"
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_config_settings
@@ -672,19 +676,19 @@ msgstr "پیکربندی"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Configure a custom domain"
-msgstr ""
+msgstr "یک دامنه سفارشی را پیکربندی کنید"
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "Congrats, best of luck catching such big fish! :)"
-msgstr ""
+msgstr "تبریک. برای گرفتن چنین ماهی های بزرگی موفق باشید!  :)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Consider leads created as of the"
-msgstr ""
+msgstr "سرنخ های ایجاد شده را در نظر بگیرید"
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_partner
@@ -705,7 +709,7 @@ msgstr "نام تماس"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__name
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__name
 msgid "Conversion Action"
-msgstr ""
+msgstr "عمل تبدیل"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_conversion
@@ -713,27 +717,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Conversion Date"
-msgstr "تاریخ گفتگو"
+msgstr "تاریخ تبدیل"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Conversion Date from Lead to Opportunity"
-msgstr ""
+msgstr "تاریخ تبدیل از سرنخ به فرصت"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Conversion Options"
-msgstr "گزینه‌های گفتگو"
+msgstr "گزینه‌های تبدیل"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
 msgid "Convert Lead to Opportunity (in mass)"
-msgstr ""
+msgstr "تبدیل سرنخ به فرصت (در توده)"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner
 msgid "Convert Lead to Opportunity (not in mass)"
-msgstr ""
+msgstr "تبدیل سرنخ به فرصت (غیر توده)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
