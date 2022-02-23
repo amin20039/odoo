@@ -953,12 +953,12 @@ msgstr "تعریف دلیل شکست جدید"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "Define here the Expected Revenue of this Opportunity."
-msgstr ""
+msgstr "در اینجا درآمد مورد انتظار برای این فرصت را تعریف کنید."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Define recurring plans and revenues on Opportunities"
-msgstr ""
+msgstr "برنامه ها و درآمدهای تکراری را بر اساس فرصت ها تعریف کنید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
@@ -975,14 +975,16 @@ msgstr "توضیحات"
 msgid ""
 "Did you know emails sent to ${record.alias_id.display_name} generate "
 "opportunities in your pipeline?<br>"
-msgstr ""
+msgstr "آیا میدانستید ایمیل هایی که به${record.alias_id.display_name} ارسال میشوند
+فرصت های جریان کاری شما را تولید میکنند؟ <br>"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid ""
 "Did you know emails sent to a Sales Team alias generate opportunities in "
 "your pipeline?"
-msgstr ""
+msgstr "آیا میدانستید ایمیل های ارسال شده به تیم فروش با نام مستعار فرصت هایی 
+در جریان کاری شما ایجاد میکند؟"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
@@ -990,7 +992,9 @@ msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
 "fill in all its data? Odoo autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
-msgstr ""
+msgstr "آیا میدانستید که میتوانید یک شرکت را با نام یا شماره VAT جستجو کنید تا فورا
+تمام داده های آن را پر کنید؟ Odoo همه چیز را برای شما به صودت خودکار تکمیل میکند: لوگو،
+آدرس، اندازه شرکت، اطلاعات کسب و کار، حساب های رسانه های اجتماعی و غیره."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
@@ -998,7 +1002,9 @@ msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
 " top-right map icon? A lot of screens in Odoo can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
-msgstr ""
+msgstr "آیا میدانستید میتوانید با استفاده از نماد نقشه بالا سمت راست، فهرستی 
+از فرصت ها را به نمای نقشه تبدیل کنید؟ تعداد زیادی صفحه در Odoo را میتوان به
+نقشه تبدیل کرد: وظیفه. مخاطب ها، سفارشات تحویل، و غیره."
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
@@ -1032,7 +1038,7 @@ msgstr "نام نمایشی"
 #: code:addons/crm/models/digest.py:0 code:addons/crm/models/digest.py:0
 #, python-format
 msgid "Do not have access, skip this data for user's digest email"
-msgstr "دسنرسی ندارد، از این داده برای ایمیل خلاصه کاربر پرش کن"
+msgstr "دسترسی ندارد، از این داده برای ایمیل خلاصه کاربر پرش کن"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner__action__nothing
@@ -1050,7 +1056,7 @@ msgstr "مستندات"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "Drag your opportunity to <b>Won</b> when you get the deal. Congrats !"
-msgstr ""
+msgstr "وقتی معامله را دریافت کردید فرصت خود را به سمت <b>Won</b> بکشید. تبریک !"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
@@ -1095,7 +1101,7 @@ msgstr "رونوشت ایمیل"
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_type_demo_email_with_template
 msgid "Email: Welcome Demo"
-msgstr ""
+msgstr "ایمیل: به نسخه آموزشی خوش آمدید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -1104,43 +1110,47 @@ msgid ""
 " Team yet. This can be made when converting them into opportunities. "
 "Incoming emails can be automatically assigned to specific Sales Teams. To do"
 " so, set an email alias on the Sales Team."
-msgstr ""
+msgstr "ایمیل های دریافت شده به آن آدرس، سرنخ های جدیدی ایجاو میکند که هنوز به هیچ 
+تیم فروش اختصاص داده نشده است. این میتواند زمانی انجام شود که آنها را به فرصت تبدیل کنید. 
+ایمیل های دریافتی را میتوان بطور خودکار به تیم فروش خاصی اختصاص داد. برای انجام این کار، 
+یک نام مستعار ایمیل در تیم فروش تنظیم کنید."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
 msgid "Enrich all leads automatically"
-msgstr ""
+msgstr "تمام سرنخ ها را به صورت خودکار غنی کنید"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_enrich_auto
 msgid "Enrich lead automatically"
-msgstr ""
+msgstr "سرنخ را بصورت خودکار غنی کنید"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__manual
 msgid "Enrich leads on demand only"
-msgstr ""
+msgstr "فقط بر اساس تقاضا سرنخ ها را غنی کنید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
 "Enrich your leads automatically with company data based on their email "
 "address"
-msgstr ""
+msgstr "سرنخ های خود را بصورت خودکار با داده های شرکت بر اساس آدرس ایمیل آنها غنی کنید"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_lead_enrich
 msgid ""
 "Enrich your leads automatically with company data based on their email "
 "address."
-msgstr ""
+msgstr "سرنخ های خود را بصورت خودکار با داده های شرکت بر اساس آدرس ایمیل آنها غنی کنید."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage__requirements
 msgid ""
 "Enter here the internal requirements for this stage (ex: Offer sent to "
 "customer). It will appear as a tooltip over the stage's name."
-msgstr ""
+msgstr "الزامات داخلی این مرحله را در اینجا وارد کنید (سابقه: پیشنهاد ارسال شده به مشتری). 
+به عنوان یک راهنمای ابزار روی نام صحنه ظاهر میشود. "
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__date_deadline
@@ -1160,7 +1170,7 @@ msgstr "پیش‌بینی تاریخ قرارداد"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_revenue_monthly
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Expected MRR"
-msgstr ""
+msgstr "MRR مورد انتظار"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__expected_revenue
@@ -1185,17 +1195,17 @@ msgstr "اطلاعات بیشتر"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Extra Information"
-msgstr ""
+msgstr "اطلاعات بیشتر"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Extra fields..."
-msgstr ""
+msgstr "زمینه های بیشتر..."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency_field__field_id
 msgid "Field"
-msgstr "فیلدفیلد"
+msgstr "فیلد"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency_field__name
@@ -1207,7 +1217,7 @@ msgstr "برچسب فیلد"
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
-msgstr ""
+msgstr "فیلد مورد استفاده برای ذخیره شماره تلفن ضدعفونی شده"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency_field
