@@ -1222,17 +1222,17 @@ msgstr "فیلد مورد استفاده برای ذخیره شماره تلفن
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency_field
 msgid "Fields that can be used for predictive lead scoring computation"
-msgstr ""
+msgstr "زمینه هایی که میتوانند برای محاسبه امتیازدهی پیش بینی کننده سرنخ استفاده شوند"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__fold
 msgid "Folded in Pipeline"
-msgstr ""
+msgstr "لایه ای شدن جریان کاری"
 
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
 msgid "Follow-up Quote"
-msgstr ""
+msgstr "نقل قول بعدی"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_follower_ids
@@ -1261,19 +1261,21 @@ msgid ""
 "Fortunately, in just a few clicks, you can generate leads specifically "
 "targeted to your needs: company size, industry, etc. To help you test the "
 "feature, we offer you 200 credits for free."
-msgstr ""
-
+msgstr "برای یک تیم فروش، هیچ چیز بدتر از خشک بودن سرنخ ها نیست."
+"خوشبختانه تنها در چند کلیک، شما میتوانید سرنخ هایی را که بطور خاص بر اساس"
+"نیازهای شما هستند ایجاد کنید: اندازه شرکت، صنایع، و غیره."
+"برای کمک به تست این ویژگی، ما ۲۰۰ اعتبار را به صورت رایگان به شما پیشنهاد میکنیم."
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__force_assignment
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__force_assignment
 msgid "Force assignment"
-msgstr ""
+msgstr "انتساب نیرو"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "From %(source_name)s : %(source_subject)s"
-msgstr ""
+msgstr "از طرف %(sourcd_name) : %(source_subject)"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
