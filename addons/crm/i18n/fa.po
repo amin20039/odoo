@@ -1397,14 +1397,14 @@ msgstr "در صورت بررسی ، برخی پیام ها خطای تحویل �
 msgid ""
 "If set, this Sales Team will be used for sales and assignments related to "
 "this partner"
-msgstr ""
+msgstr "اگر تنظیم شود، از این تیم فروش برای فروش و تکالیف مربوط به این شریک استفاده خواهد شد"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_bounced_content
 msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
-msgstr ""
+msgstr "در صورت تنظیم، این محتوا بجای پیام پیش فرض، بطور خودکار برای کاربران غیرمجاز ارسال میشود."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__is_blacklisted
@@ -1412,7 +1412,7 @@ msgstr ""
 msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
-msgstr ""
+msgstr "اگر آدرس ایمیل در بلک لیست باشد، مخاطب دیگر هیچ لیستی، نامه های انبوه دریافت نمیکند "
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_sanitized_blacklisted
