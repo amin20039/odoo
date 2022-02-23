@@ -1111,7 +1111,8 @@ msgid ""
 "Incoming emails can be automatically assigned to specific Sales Teams. To do"
 " so, set an email alias on the Sales Team."
 msgstr "ایمیل های دریافت شده به آن آدرس، سرنخ های جدیدی ایجاو میکند که هنوز به هیچ 
-تیم فروش اختصاص داده نشده است. این میتواند زمانی انجام شود که آنها را به فرصت تبدیل کنید. 
+تیم فروش اختصاص داده نشده است. "
+این میتواند زمانی انجام شود که آنها را به فرصت تبدیل کنید."
 ایمیل های دریافتی را میتوان بطور خودکار به تیم فروش خاصی اختصاص داد. برای انجام این کار، 
 یک نام مستعار ایمیل در تیم فروش تنظیم کنید."
 
@@ -1281,7 +1282,7 @@ msgstr "از طرف %(sourcd_name) : %(source_subject)"
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "From %(source_name)s"
-msgstr ""
+msgstr "از طرف %(source_name)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -1293,22 +1294,22 @@ msgstr "فعالیتهای آینده"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_lead
 msgid "Generate new leads based on their country, industries, size, etc."
-msgstr ""
+msgstr "تولید سرنخ های جدید بر اساس کشور، صنایع، اندازه و غیره."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Generate new leads based on their country, industry, size, etc."
-msgstr ""
+msgstr "تولید سرنخ های جدید بر اساس کشور، صنایع، اندازه وغیره"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_lost
 msgid "Get Lost Reason"
-msgstr ""
+msgstr "گم شدن دلیل"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Give your team the requirements to move an opportunity to this stage."
-msgstr ""
+msgstr "به تیم خود شرایط لازم را بدهید تا فرصتی را به این مرحله برسانند."
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -1357,7 +1358,7 @@ msgstr "شناسه"
 msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
-msgstr ""
+msgstr "شناسه سابقه والدین حاوی نام مستعار (مثال: برگزاری پروژه وظیفه ساختن نام مستعار میباشد"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_exception_icon
@@ -1375,7 +1376,7 @@ msgstr "آیکون برای نشان دادن یک فعالیت استثنا."
 msgid ""
 "If checked, forces salesman to be updated on updated opportunities even if "
 "already set."
-msgstr ""
+msgstr "اگر علامت زده شود، فروشنه ده را مجبور میکند تا در مورد فرصت های بروز شده بروز شود، حتی اگر از قبل تنظیم شده باشد."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction
