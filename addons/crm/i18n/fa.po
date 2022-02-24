@@ -1382,8 +1382,7 @@ msgstr "اگر علامت زده شود، فروشنه ده را مجبور می
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction
 #: model:ir.model.fields,help:crm.field_crm_lead__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
-"اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت."
+msgstr "اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_has_error
@@ -1419,23 +1418,24 @@ msgstr "اگر آدرس ایمیل در بلک لیست باشد، مخاطب د
 msgid ""
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
-msgstr ""
+msgstr "اگر شماره تلفن ضدعفونی شده در لیست سیاه باشد، مخاطب دریافت نمی کند"
+"ارسال پیامک انبوه دیگر، از هر فهرستی"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.menu_import_crm
 msgid "Import & Synchronize"
-msgstr ""
+msgstr "وارد کردن و همگام سازی"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "Import Template for Leads & Opportunities"
-msgstr ""
+msgstr "وارد کردن الگو برای سرنخ ها و فرصت ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
 msgid "Include archived"
-msgstr ""
+msgstr "شامل آرشیو شده"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -1454,7 +1454,8 @@ msgid ""
 "Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
-msgstr ""
+msgstr "نشان می دهد که آیا شماره تلفن ضدعفونی شده در لیست سیاه، شماره تلفن همراه است یا خیر."
+"به تشخیص اینکه کدام شماره در لیست سیاه قرار می گیرد، زمانی که فیلد تلفن همراه و تلفن در یک مدل وجود دارد، کمک می کند"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_blacklisted
@@ -1462,12 +1463,13 @@ msgid ""
 "Indicates if a blacklisted sanitized phone number is a phone number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
-msgstr ""
+msgstr "نشان می دهد که آیا شماره تلفن ضدعفونی شده در لیست سیاه، شماره تلفن همراه است یا خیر."
+"به تشخیص اینکه کدام شماره در لیست سیاه قرار می گیرد، زمانی که فیلد تلفن همراه و تلفن در یک مدل وجود دارد، کمک می کند"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Internal Notes"
-msgstr "یادداشت‌های داخلی"
+msgstr "یادداشت های داخلی"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_is_follower
@@ -1477,12 +1479,12 @@ msgstr "دنبال می کند"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__is_won
 msgid "Is Won Stage?"
-msgstr ""
+msgstr "آیا مرحله ی برنده است؟"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_automated_probability
 msgid "Is automated probability?"
-msgstr ""
+msgstr "آیا احتمالا خودکار است؟"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__function
