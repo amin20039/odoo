@@ -1499,12 +1499,12 @@ msgstr "وضعیت کانبان"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created_value
 msgid "Kpi Crm Lead Created Value"
-msgstr ""
+msgstr "ارزش ایجاد شده توسط Kpi Crm Lead"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_opportunities_won_value
 msgid "Kpi Crm Opportunities Won Value"
-msgstr ""
+msgstr "ارزش برنده فرصت های Kpi Crm"
 
 #. module: crm
 #: model:crm.lead.scoring.frequency.field,name:crm.frequency_field_lang_id
@@ -1595,7 +1595,7 @@ msgstr "سرنخ"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Enrichment"
-msgstr ""
+msgstr "غنی سازی سرنخ"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -1605,22 +1605,22 @@ msgstr "ایجاد سرنخ"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Mining"
-msgstr ""
+msgstr "استخراج سرنخ"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency
 msgid "Lead Scoring Frequency"
-msgstr ""
+msgstr "فرکانس امتیاز دهی سرنخ"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_fields
 msgid "Lead Scoring Frequency Fields"
-msgstr ""
+msgstr "فیلدهای فرکانس امتیازدهی سرنخ"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_fields_str
 msgid "Lead Scoring Frequency Fields in String"
-msgstr ""
+msgstr "فیلدهای فرکانس امتیازدهی سرنخ در رشته"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date
@@ -1630,13 +1630,13 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date_str
 msgid "Lead Scoring Starting Date in String"
-msgstr ""
+msgstr "تاریخ شروع امتیازدهی سرنخ"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "Lead or Opportunity"
-msgstr ""
+msgstr "سرنخ یا فرصت"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead
@@ -1646,7 +1646,7 @@ msgstr "سرنخ / فرصت"
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
 msgid "Lead/Opportunity created"
-msgstr ""
+msgstr "سرنخ/فرصت ایجاد شده"
 
 #. module: crm
 #: code:addons/crm/models/crm_lost_reason.py:0
@@ -1678,44 +1678,47 @@ msgid ""
 "Leads Analysis allows you to check different CRM related information like "
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
-msgstr ""
+msgstr "تجزیه و تحلیل سرنخ ها به شما امکان می دهد اطلاعات مختلف مرتبط با CRM "
+"مانند تاخیرهای درمان یا تعداد سرنخ ها را در هر حالت بررسی کنید."
+"شما می توانید تجزیه و تحلیل سرنخ های خود را بر اساس گروه های مختلف مرتب کنید تا تجزیه و تحلیل دقیقی داشته باشید."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lost_reason__leads_count
 msgid "Leads Count"
-msgstr ""
+msgstr "تعداد سرنخ ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_calendar_view_leads
 msgid "Leads Generation"
-msgstr ""
+msgstr "نسل سرنخ ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_activity
 msgid "Leads or Opportunities"
-msgstr ""
+msgstr "سرنخ ها یا فرصت ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are assigned to me"
-msgstr "سرنخ هایی که به من محول شده اند"
+msgstr "سرنخ هایی که به من اختصاص داده شده اند"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are not assigned"
-msgstr ""
+msgstr "سرنخ هایی که اختصاص داده نشده"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid ""
 "Leads that you selected that have duplicates. If the list is empty, it means"
 " that no duplicates were found"
-msgstr ""
+msgstr "سرنخ هایی که انتخاب کردید و دارای موارد تکراری هستند"
+"اگر لیست خالی است، این بدان معنی است که هیچ تکراری یافت نشد"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Leads with existing duplicates (for information)"
-msgstr ""
+msgstr "سرنخ ها با موارد تکراری موجود است (برای اطلاعات)"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_merge_opportunity__opportunity_ids
@@ -1725,21 +1728,21 @@ msgstr "سرنخ ها / فرصت ها"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__crm_lead_count
 msgid "Leads/Opportunities count"
-msgstr ""
+msgstr "سرنخ ها/فرصت ها حساب مس آیند"
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "Let's <b>Schedule an Activity.</b>"
-msgstr ""
+msgstr "بیایید یک فغالیت را <b>برنامه ریز کنیم.</b> "
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "Let’s have a look at an Opportunity."
-msgstr ""
+msgstr "بیایید نگاهی به یک فرصت بیندازیم"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner__action__exist
@@ -1752,7 +1755,8 @@ msgstr "انتساب به یک مشتری موجود"
 msgid ""
 "Linked partner (optional). Usually created when converting the lead. You can"
 " find a partner by its Name, TIN, Email or Internal Reference."
-msgstr ""
+msgstr "شریک مرتبط (اختیاری). معمولاً هنگام تبدیل سرنخ ایجاد می شود."
+"می توانید شریکی را با نام، TIN، ایمیل یا مرجع داخلی پیدا کنید."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__email_cc
@@ -1766,7 +1770,8 @@ msgstr "فهرست CC از ایمیل های دریافتی."
 msgid ""
 "Looks like nothing is planned. :(<br><br><i>Tip : Schedule activities to "
 "keep track of everything you have to do!</i>"
-msgstr ""
+msgstr "به نظر می رسد هیچ چیز برنامه ریزی نشده است. :(<br><br><i>نکته :"
+" فعالیت ها را برنامه ریزی کنید تا «همه چیزهایی را که باید انجام دهید پیگیری کنید"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -1792,13 +1797,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Lost Reason"
-msgstr ""
+msgstr "حساب از دست رفته"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lost_reason_action
 #: model:ir.ui.menu,name:crm.menu_crm_lost_reason
 msgid "Lost Reasons"
-msgstr ""
+msgstr "دلایل از دست رفته"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__priority__0
@@ -1813,22 +1818,22 @@ msgstr "پیوست اصلی"
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_make_quote
 msgid "Make Quote"
-msgstr ""
+msgstr "نقل قول را انجام دهید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Manage Recurring Plans"
-msgstr ""
+msgstr "برنامه های تکرار شونده را مدیریت کنید"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__generate_lead_from_alias
 msgid "Manual Assignment of Emails"
-msgstr ""
+msgstr "واگذاری دستی ایمیل ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Mark Lost"
-msgstr "درج در لیست باخته‌ها"
+msgstr "درج در لیست باخته ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -1838,7 +1843,7 @@ msgstr "درج در لیست بردها"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Mark as Lost"
-msgstr ""
+msgstr "علامت گذاری به عنوان گمشده"
 
 #. module: crm
 #: model:ir.actions.server,name:crm.action_mark_as_lost
@@ -1862,7 +1867,7 @@ msgstr "متوسط"
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "Meeting scheduled at '%s'<br> Subject: %s <br> Duration: %s hours"
-msgstr ""
+msgstr "جلسه برنامه ریزی شده در '%s'<br> موضوع: %s <br> مدت زمان: %s ساعت"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.act_crm_opportunity_calendar_event_new
@@ -1886,18 +1891,18 @@ msgstr "ادغام سرنخ ها / فرصت ها"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_merge_opportunity
 msgid "Merge Opportunities"
-msgstr ""
+msgstr "ادغام فرصت ها"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead2opportunity_partner_mass__deduplicate
 msgid "Merge with existing leads/opportunities of each partner"
-msgstr ""
+msgstr "با سرنخ های/فرصت های موجود هر شریک ادغام شود"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner__name__merge
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__name__merge
 msgid "Merge with existing opportunities"
-msgstr ""
+msgstr "ادغام با فرصت های موجود"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -1931,7 +1936,7 @@ msgstr "خطای تحویل پیام"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_ids
 msgid "Messages"
-msgstr "پیام‌ها"
+msgstr "پیام ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -1959,12 +1964,12 @@ msgstr "فعالیتهای من"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_date_deadline_my
 msgid "My Activities Deadline"
-msgstr ""
+msgstr "آخرین مهلت فعالیت های من"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "My Deadline"
-msgstr ""
+msgstr "مهلت من"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -1980,7 +1985,7 @@ msgstr "فرصت های من"
 #: model:ir.ui.menu,name:crm.menu_crm_opportunities
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "My Pipeline"
-msgstr ""
+msgstr "جریان کاری من"
 
 #. module: crm
 #: model:crm.stage,name:crm.stage_lead1
@@ -1990,7 +1995,7 @@ msgstr "جدید"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created
 msgid "New Leads/Opportunities"
-msgstr ""
+msgstr "سرنخ های/فرصت های جدید"
 
 #. module: crm
 #: code:addons/crm/models/crm_team.py:0
@@ -2026,7 +2031,7 @@ msgstr "فعالیت بعدی برنامه ریزی شده"
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__kanban_state__red
 msgid "Next activity late"
-msgstr ""
+msgstr "تاخیر فعالیت های بعدی"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -2048,12 +2053,12 @@ msgstr "هیچ فعالیت بعدی برنامه ریزی نشده"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "No salesperson"
-msgstr "هیچ فروشنده‌ای وجود ندارد."
+msgstr "هیچ فروشنده ای وجود ندارد."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_normalized
 msgid "Normalized Email"
-msgstr ""
+msgstr "ایمیل عادی شده"
 
 #. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_3
@@ -2063,14 +2068,14 @@ msgstr "سهم نا کافی"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__description
 msgid "Notes"
-msgstr "یادداشت‌ها"
+msgstr "یادداشت ها"
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "Now, <b>add your Opportunity</b> to your Pipeline."
-msgstr ""
+msgstr "حالا، <b>فرصت خود را اضافه کنید</b> یه جریان کاری"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_needaction_counter
@@ -2085,7 +2090,7 @@ msgstr "تعداد خطاها"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__lead_all_assigned_month_count
 msgid "Number of leads and opportunities assigned this last month."
-msgstr ""
+msgstr "تعداد سرنخ ها و فرصت های اختصاص داده شده در ماه گذشته."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction_counter
@@ -2100,14 +2105,14 @@ msgstr "تعداد پیامهای با خطای تحویل"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_unread_counter
 msgid "Number of unread messages"
-msgstr "تعداد پیام‌های خوانده نشده"
+msgstr "تعداد پیام های خوانده نشده"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "Odoo helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
-msgstr ""
+msgstr "Odoo به شما کمک می کند تا جریان کاری فروش خود را پیگیری کنید تا فروش بالقوه را دنبال کنید و درآمدهای آینده خود را بهتر پیش بینی کنید."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
@@ -2116,7 +2121,9 @@ msgid ""
 "opportunity based on your history. You can always update the success rate "
 "manually, but if you let Odoo do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
-msgstr ""
+msgstr "موتور هوش مصنوعی Odoo میزان موفقیت هر فرصت را بر اساس سابقه شما پیش بینی می کند."
+"همیشه می توانید نرخ موفقیت را به صورت دستی به روزرسانی کنید، اما اگر به Odoo اجازه دهید این کار را انجام دهد،"
+"در حالی که فرصت در چرخه فروش شما پیش می رود، امتیاز به روزرسانی می شود."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
@@ -2132,7 +2139,7 @@ msgstr "فرصت باز"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lost_reason
 msgid "Opp. Lost Reason"
-msgstr ""
+msgstr "دلیل گم شده"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_opportunity
@@ -2149,7 +2156,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner
 #: model_terms:ir.ui.view,arch_db:crm.view_partners_form_crm1
 msgid "Opportunities"
-msgstr "فرصت‌ها"
+msgstr "فرصت ها"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
@@ -2164,23 +2171,26 @@ msgid ""
 "deadlines or the number of interactions per opportunity. This report is "
 "mainly used by the sales manager in order to do the periodic review with the"
 " channels of the sales pipeline."
-msgstr ""
+msgstr "تجزیه و تحلیل فرصت ها به شما امکان می دهد با اطلاعاتی مانند"
+"درآمد مورد انتظار، هزینه برنامه ریزی شده، مهلت های از دست رفته یا"
+"تعداد تعاملات در هر فرصت، به فرصت های خود دسترسی داشته باشید."
+"این گزارش عمدتاً توسط مدیر فروش به منظور بررسی دوره ای با کانال های جریان کاری فروش استفاده می شود."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_partner__opportunity_count_ids
 #: model:ir.model.fields,field_description:crm.field_res_users__opportunity_count_ids
 msgid "Opportunities Count"
-msgstr ""
+msgstr "حساب فرصت ها"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_amount
 msgid "Opportunities Revenues"
-msgstr ""
+msgstr "درآمد فرصت ها"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_opportunities_won
 msgid "Opportunities Won"
-msgstr ""
+msgstr "فرصت های برنده"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_my_activities_filter
@@ -2208,7 +2218,7 @@ msgstr "فرصت"
 #: model:mail.message.subtype,name:crm.mt_lead_create
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead
 msgid "Opportunity Created"
-msgstr ""
+msgstr "فرصت های ایجاد شده"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_lost
@@ -2220,12 +2230,12 @@ msgstr "فرصت ازدست رفت"
 #: model:mail.message.subtype,name:crm.mt_lead_restored
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_restored
 msgid "Opportunity Restored"
-msgstr ""
+msgstr "فرصت بازیابی شد"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_stage
 msgid "Opportunity Stage Changed"
-msgstr ""
+msgstr "مرحله فرصت تغییر کرده است"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_won
@@ -2241,7 +2251,7 @@ msgstr "فرصت ازدست رفت"
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_restored
 msgid "Opportunity restored"
-msgstr ""
+msgstr "فرصت بازیابی شد"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_won
