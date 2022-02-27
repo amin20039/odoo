@@ -3360,7 +3360,7 @@ msgstr "هشدارهای سفارش فروش"
 #. module: sale
 #: model:ir.model,name:sale.model_sale_payment_acquirer_onboarding_wizard
 msgid "Sale Payment acquire onboarding wizard"
-msgstr ""
+msgstr "فروش پرداخت به دست آوردن جادوگر سوار شدن"
 
 #. module: sale
 #: model:utm.source,name:sale.utm_source_sale_order_0
@@ -3375,7 +3375,7 @@ msgstr "هشدار های فروش"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_onboarding_payment_method
 msgid "Sale onboarding selected payment method"
-msgstr ""
+msgstr "فروش با روش پرداخت انتخابی"
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_report_product_all
@@ -3448,24 +3448,24 @@ msgstr "آیتم سفارش فروش"
 #: model:ir.model.fields,field_description:sale.field_product_product__sale_line_warn
 #: model:ir.model.fields,field_description:sale.field_product_template__sale_line_warn
 msgid "Sales Order Line"
-msgstr "سطر سفارش‌فروش"
+msgstr "سطر سفارش فروش"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_move_line__sale_line_ids
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Sales Order Lines"
-msgstr "سطرهای سفارش‌فروش"
+msgstr "سطرهای سفارش فروش"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Sales Order Lines ready to be invoiced"
-msgstr ""
+msgstr "خطوط سفارش فروش آماده فاکتور"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
-msgid "Sales Order Lines related to a Sales Order of mine"
-msgstr ""
+msgid " Order Lines related to a Sales Order of mine"
+msgstr "خطوط سفارش مربوط به سفارش فروش من"
 
 #. module: sale
 #: code:addons/sale/models/payment.py:0
@@ -3525,7 +3525,7 @@ msgstr "هشدار های فروش"
 #. module: sale
 #: model:ir.model,name:sale.model_report_all_channels_sales
 msgid "Sales by Channel (All in One)"
-msgstr ""
+msgstr "فروش بر اساس کانال (همه در یکجا)"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__product_template__expense_policy__sales_price
@@ -3812,17 +3812,17 @@ msgstr "با بررسی اطلاعات شرکت خود شروع کن."
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_onboarding_order_confirmation_state
 msgid "State of the onboarding confirmation order step"
-msgstr ""
+msgstr "وضعیت مرحله سفارش تأیید ورود"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_onboarding_sample_quotation_state
 msgid "State of the onboarding sample quotation step"
-msgstr ""
+msgstr "وضعیت مرحله نقل قول نمونه ورود"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_quotation_onboarding_state
 msgid "State of the sale onboarding panel"
-msgstr ""
+msgstr "پنل سوار شدن وضعیت فروش"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__state
@@ -3852,12 +3852,12 @@ msgstr "استریپ"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_payment_acquirer_onboarding_wizard__stripe_publishable_key
 msgid "Stripe Publishable Key"
-msgstr ""
+msgstr "کلید راه راه قابل انتشار"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_payment_acquirer_onboarding_wizard__stripe_secret_key
 msgid "Stripe Secret Key"
-msgstr ""
+msgstr "کلید مخفی راه راه"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__price_subtotal
@@ -3898,7 +3898,8 @@ msgstr "مالیات مورد استفاده برای سپرده"
 msgid ""
 "Technical Field, True if the pricelist was changed;\n"
 " this will then display a recomputation button"
-msgstr ""
+msgstr "فیلد فنی، اگر لیست قیمت تغییر کرده باشد درست است؛\n"
+"سپس یک دکمه محاسبه مجدد نمایش داده می شود"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_line__display_type
