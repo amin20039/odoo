@@ -3911,7 +3911,7 @@ msgstr "فیلد فنی برای اهداف UX."
 msgid ""
 "Tell us why you are refusing this quotation, this will help us improve our "
 "services."
-msgstr ""
+msgstr "به ما بگویید چرا این نقل قول را رد می کنید، این به ما کمک می کند خدمات خود را بهبود بخشیم"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
@@ -3934,7 +3934,8 @@ msgstr "شرایط و ضوابط..."
 msgid ""
 "The Sales Order %s linked to the Analytic Account %s is cancelled. You "
 "cannot register an expense on a cancelled Sales Order."
-msgstr ""
+msgstr "سفارش فروش %s مرتبط با حساب تحلیلی %s لغو می شود. "
+"شما نمی توانید هزینه ای را در یک سفارش فروش لغو شده ثبت کنید."
 
 #. module: sale
 #: code:addons/sale/models/account_move.py:0
@@ -3943,7 +3944,8 @@ msgid ""
 "The Sales Order %s linked to the Analytic Account %s is currently locked. "
 "You cannot register an expense on a locked Sales Order. Please create a new "
 "SO linked to this Analytic Account."
-msgstr ""
+msgstr "سفارش فروش %s مرتبط با حساب تحلیلی %s در حال حاضر قفل شده است."
+"شما نمی توانید هزینه ای را در یک سفارش فروش قفل شده ثبت کنید. لطفا جدید ایجاد کنید "SO به این حساب تحلیلی مرتبط است."
 
 #. module: sale
 #: code:addons/sale/models/account_move.py:0
@@ -3951,12 +3953,12 @@ msgstr ""
 msgid ""
 "The Sales Order %s linked to the Analytic Account %s must be validated "
 "before registering expenses."
-msgstr ""
+msgstr "سفارش فروش % مرتبط با حساب تحلیلی % باید تأیید شود.قبل از ثبت هزینه ها"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__analytic_account_id
 msgid "The analytic account related to a sales order."
-msgstr ""
+msgstr "حساب تحلیلی مربوط به سفارش فروش."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
@@ -3964,12 +3966,13 @@ msgstr ""
 msgid ""
 "The delivery date is sooner than the expected date.You may be unable to "
 "honor the delivery date."
-msgstr ""
+msgstr "تاریخ تحویل زودتر از تاریخ مورد انتظار است. "
+"ممکن است نتوانید به تاریخ تحویل برسید"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__fixed_amount
 msgid "The fixed amount to be invoiced in advance, taxes excluded."
-msgstr ""
+msgstr "مبلغ ثابتی که باید پیش فاکتور شود، بدون مالیات"
 
 #. module: sale
 #: code:addons/sale/models/product_template.py:0
@@ -3978,7 +3981,7 @@ msgid ""
 "The following products cannot be restricted to the company %s because they have already been used in quotations or sales orders in another company:\n"
 "%s\n"
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
-msgstr ""
+msgstr "می توانید این محصولات را بایگانی کنید و در عوض با محدودیت های شرکت خود دوباره ایجاد کنید، یا آنها را به عنوان محصول مشترک بگذارید."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_res_config_settings__automatic_invoice
@@ -3986,7 +3989,9 @@ msgid ""
 "The invoice is generated automatically and available in the customer portal when the transaction is confirmed by the payment acquirer.\n"
 "The invoice is marked as paid and the payment is registered in the payment journal defined in the configuration of the payment acquirer.\n"
 "This mode is advised if you issue the final invoice at the order and not after the delivery."
-msgstr ""
+msgstr "زمانی که تراکنش توسط گیرنده پرداخت تأیید شد، صورت حساب به طور خودکار تولید می شود و در پورتال مشتری در دسترس است.\n"
+"فاکتور به عنوان پرداخت شده علامت گذاری می شود و پرداخت در روزنامه پرداخت که در پیکربندی گیرنده پرداخت تعریف شده است، ثبت می شود.\n"
+"این حالت در صورتی توصیه می شود که فاکتور نهایی را در هنگام سفارش و نه پس از تحویل صادر کنید."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -4009,23 +4014,23 @@ msgstr "سفارش در مرحله ای نیست که نیاز به امضاء �
 msgid ""
 "The order was not confirmed despite response from the acquirer (%s): order "
 "total is %r but acquirer replied with %r."
-msgstr ""
+msgstr "سفارش با وجود پاسخ از سوی خریدار (%s) تأیید نشد: کل سفارش %r است اما گیرنده با %r پاسخ داد"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
 #, python-format
 msgid "The ordered quantity has been updated."
-msgstr ""
+msgstr "مقدار سفارش داده شده به روز شده است."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__reference
 msgid "The payment communication of this sale order."
-msgstr "راه‌های ارتباطی برای این سفارش فروش."
+msgstr "راه های ارتباطی برای این سفارش فروش."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__amount
 msgid "The percentage of amount to be invoiced in advance, taxes excluded."
-msgstr ""
+msgstr "درصد مبلغی که باید پیش فاکتور شود، بدون مالیات."
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
@@ -4033,7 +4038,8 @@ msgstr ""
 msgid ""
 "The product used to invoice a down payment should be of type 'Service'. "
 "Please use another product or update this product."
-msgstr ""
+msgstr "محصولی که برای صورت حساب پیش پرداخت استفاده می شود باید از نوع «سرویس» باشد."
+"لطفا از محصول دیگری استفاده کنید یا این محصول را به روز کنید."
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
@@ -4041,8 +4047,9 @@ msgstr ""
 msgid ""
 "The product used to invoice a down payment should have an invoice policy set"
 " to \"Ordered quantities\". Please update your deposit product to be able to"
-" create a deposit invoice."
-msgstr ""
+"  a deposit invoice."
+msgstr "محصولی که برای صورت حساب پیش پرداخت استفاده می شود باید دارای خط مشی فاکتور تنظیم شده باشد."
+"به \مقدارهای سفارش داده شده\. لطفاً محصول سپرده خود را به روز کنید تا بتوانید فاکتور واریز کنید"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__currency_rate
