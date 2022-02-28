@@ -4056,7 +4056,7 @@ msgstr "محصولی که برای صورت حساب پیش پرداخت است�
 msgid ""
 "The rate of the currency to the currency of rate 1 applicable at the date of"
 " the order"
-msgstr ""
+msgstr "نرخ ارز به واحد پول نرخ 1 قابل اعمال در تاریخ سفارش است"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
@@ -4072,7 +4072,7 @@ msgstr "در حال حاضر هیچ سفارشی برای حساب شما وجو
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 msgid "There are currently no quotations for your account."
-msgstr "در حال حاضر هیچ پیشفاکتور برای حساب شما وجود ندارد."
+msgstr "در حال حاضر هیچ پیش فاکتور برای حساب شما وجود ندارد."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
@@ -4084,7 +4084,11 @@ msgid ""
 "- You should deliver your products before invoicing them: Click on the \"truck\" icon (top-right of your screen) and follow instructions.\n"
 "- You should modify the invoicing policy of your product: Open the product, go to the \"Sales tab\" and modify invoicing policy from \"delivered quantities\" to \"ordered quantities\".\n"
 "        "
-msgstr ""
+msgstr "چیزی برای فاکتور وجود ندارد!\n"
+"\n"
+"دلیل(های) این رفتار می تواند این باشد:\n"
+"- باید محصولات خود را قبل از صدور صورتحساب تحویل دهید: روی نماد \"کامیون\" (بالا سمت راست صفحه نمایش خود) کلیک کنید و دستورالعمل ها را دنبال کنید.\n"
+"- باید بیمه نامه صورتحساب محصول خود را تغییر دهید: محصول را باز کنید، به \"برگه فروش\" بروید و خط مشی صورتحساب را از \"مقدارهای تحویل شده\" به \"مقدارهای سفارش داده\" تغییر دهید.\n"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -4102,6 +4106,8 @@ msgid ""
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
 msgstr ""
+"این نامی است که به شما کمک می کند تا تلاش های مختلف کمپین خود را پیگیری کنید."
+" e.g. Fall_Drive, Christmas_Special"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__commitment_date
@@ -4109,12 +4115,14 @@ msgid ""
 "This is the delivery date promised to the customer. If set, the delivery "
 "order will be scheduled based on this date rather than product lead times."
 msgstr ""
+"این تاریخ تحویل وعده داده شده به مشتری است. در صورت تنظیم،"
+"سفارش تحویل بر اساس این تاریخ به جای زمان تحویل محصول برنامه ریزی می شود"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_account_move__medium_id
 #: model:ir.model.fields,help:sale.field_sale_order__medium_id
 msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
-msgstr ""
+msgstr "این روش تحویل است، به عنوان مثال. کارت پستال، ایمیل یا آگهی تبلیغاتی"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_account_move__source_id
@@ -4123,6 +4131,8 @@ msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
 msgstr ""
+"این منبع پیوند است، به عنوان مثال. موتور جستجو، دامنه دیگر یا"
+"نام لیست ایمیل"
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_all
@@ -4133,6 +4143,11 @@ msgid ""
 "having invoiced yet. If you want to analyse your turnover, you should use "
 "the Invoice Analysis report in the Accounting application."
 msgstr ""
+"این گزارش تجزیه و تحلیل قیمت های سفارشات فروش شما را انجام می دهد."
+"تجزیه و تحلیل درآمدهای فروش خود را بررسی کنید و آن را بر اساس معیارهای گروهی مختلف (فروشنده، شریک، محصول و غیره) مرتب کنید."
+"از این گزارش برای انجام تجزیه و تحلیل در مورد فروش هایی که هنوز فاکتور نشده اند استفاده کنید."
+"اگر می خواهید گردش مالی خود را تجزیه و تحلیل کنید، باید از گزارش تجزیه و تحلیل فاکتور در برنامه حسابداری استفاده کنید."
+
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_quotation_salesteam
