@@ -4158,6 +4158,9 @@ msgid ""
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
 msgstr ""
+"این گزارش بر روی نقل قول های شما تحلیل می کند. تجزیه و تحلیل درآمدهای فروش خود را بررسی کرده"
+"و آن را بر اساس معیارهای گروهی مختلف (فروشنده، شریک، محصول و غیره) مرتب کنید."
+"اگر می خواهید گردش مالی خود را تجزیه و تحلیل کنید، باید از گزارش تجزیه و تحلیل فاکتور در برنامه حسابداری استفاده کنید."
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_so_salesteam
@@ -4168,11 +4171,15 @@ msgid ""
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
 msgstr ""
+"این گزارش تجزیه و تحلیل قیمت های سفارشات فروش شما را انجام می دهد."
+"تجزیه و تحلیل درآمدهای فروش خود را بررسی کنید و آن را بر اساس معیارهای گروهی مختلف (فروشنده، شریک، محصول و غیره) مرتب کنید."
+"از این گزارش برای انجام تجزیه و تحلیل در مورد فروش هایی که هنوز فاکتور نشده اند استفاده کنید."
+"اگر می خواهید گردش مالی خود را تجزیه و تحلیل کنید، باید از گزارش تجزیه و تحلیل فاکتور در برنامه حسابداری استفاده کنید."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "This will update all unit prices based on the currently set pricelist."
-msgstr ""
+msgstr "این همه قیمت های واحد را بر اساس فهرست قیمت تعیین شده فعلی به روزرسانی می کند."
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__invoice_status__to_invoice
@@ -4191,7 +4198,7 @@ msgstr "مقدار برای فاکتور"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_view_search_inherit_sale
 msgid "To Upsell"
-msgstr ""
+msgstr "برای فروش"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -4200,6 +4207,8 @@ msgid ""
 "list view and click on 'Portal Access Management' option in the dropdown "
 "menu *Action*."
 msgstr ""
+"برای ارسال دعوت نامه ها در حالت B2B، مخاطبی را باز کنید "
+"یا چندین مخاطب را در نمای فهرست انتخاب کنید و روی گزینه «مدیریت دسترسی پورتال» در منوی کشویی *اکشن* کلیک کنید."
 
 #. module: sale
 #. openerp-web
@@ -4209,6 +4218,7 @@ msgid ""
 "To speed up order confirmation, we can activate electronic signatures or "
 "payments."
 msgstr ""
+"برای سرعت بخشیدن به تایید سفارش، می توانیم امضای الکترونیکی یا پرداخت را فعال کنیم"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
@@ -4267,17 +4277,17 @@ msgstr "نوع فعالیت استثنایی برای رکورد."
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_ups
 msgid "UPS Connector"
-msgstr ""
+msgstr "اتصال دهنده UPS"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_usps
 msgid "USPS Connector"
-msgstr ""
+msgstr "اتصال دهنده USPS"
 
 #. module: sale
 #: model:ir.model,name:sale.model_utm_campaign
 msgid "UTM Campaign"
-msgstr ""
+msgstr "کمپین UTM"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__price_unit
@@ -4331,7 +4341,7 @@ msgstr "پیام های ناخوانده"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "شمارنده پیام‌های خوانده‌ نشده"
+msgstr "شمارنده پیام های خوانده نشده"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_untaxed
@@ -4347,12 +4357,12 @@ msgstr "مقدار فاکتور شده بدون مالیات"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__untaxed_amount_to_invoice
 #: model:ir.model.fields,field_description:sale.field_sale_report__untaxed_amount_to_invoice
 msgid "Untaxed Amount To Invoice"
-msgstr ""
+msgstr "مبلغ بدون مالیات به صورت حساب"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__untaxed_amount_invoiced
 msgid "Untaxed Invoiced Amount"
-msgstr ""
+msgstr "مبلغ فاکتور بدون مالیات"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report__price_subtotal
@@ -4376,6 +4386,8 @@ msgid ""
 "Upsell <a href='#' data-oe-model='%s' data-oe-id='%d'>%s</a> for customer <a"
 " href='#' data-oe-model='%s' data-oe-id='%s'>%s</a>"
 msgstr ""
+"فروش <a href='#' data-oe-model='%s' data-oe-id='%d'>%s</a> برای مشتری 
+"<a" " href='#' data-oe-model='%s' data-oe-id='%s'>%s</a>"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__invoice_status__upselling
@@ -4439,7 +4451,7 @@ msgstr "هشدار هنگام فروش این محصول"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__website_message_ids
 msgid "Website Messages"
-msgstr "پیام‌های وب‌سایت"
+msgstr "پیام های وب سایت"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__website_message_ids
@@ -4451,14 +4463,14 @@ msgstr "تاریخچه ارتباطات با وبسایت"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 #, python-format
 msgid "Write <b>your own email address</b> here in order to test the flow."
-msgstr ""
+msgstr "برای آزمایش جریان، <b>آدرس ایمیل خود</b> خود را در اینجا بنویسید."
 
 #. module: sale
 #. openerp-web
 #: code:addons/sale/static/src/js/tours/sale.js:0
 #, python-format
 msgid "Write a company name to create one, or see suggestions."
-msgstr ""
+msgstr "نام شرکتی را برای ایجاد آن بنویسید یا پیشنهادات را ببینید."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
@@ -4466,7 +4478,8 @@ msgstr ""
 msgid ""
 "You can not delete a sent quotation or a confirmed sales order. You must "
 "first cancel it."
-msgstr ""
+msgstr "شما نمی توانید یک پیشنهاد ارسال شده یا یک سفارش فروش تایید شده را حذف کنید. ابتدا باید "
+"آن را لغو کنید."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
@@ -4475,6 +4488,8 @@ msgid ""
 "You can not remove an order line once the sales order is confirmed.\n"
 "You should rather set the quantity to 0."
 msgstr ""
+"پس از تأیید سفارش فروش، نمی توانید خط سفارش را حذف کنید.\n"
+"بهتر است مقدار را روی 0 تنظیم کنید."
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_to_invoice
@@ -4482,6 +4497,8 @@ msgid ""
 "You can select all orders and invoice them in batch,<br>\n"
 "                or check every order and invoice them one by one."
 msgstr ""
+"می توانید همه سفارش ها را انتخاب کنید و آنها را به صورت دسته ای فاکتور کنید،<br>\n"
+"یا هر سفارش را بررسی کنید و آنها را یک به یک فاکتور کنید."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_payment_acquirer__so_reference_type
@@ -4490,6 +4507,8 @@ msgid ""
 " communication will be given to the customer when they choose the payment "
 "method."
 msgstr ""
+"در اینجا می توانید نوع ارتباطی را که در سفارش های فروش ظاهر می شود تنظیم کنید."
+"هنگامی که مشتری پرداخت را انتخاب کرد، ارتباط به او داده می شود."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
@@ -4507,6 +4526,8 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                    whether it's a storable product, a consumable or a service."
 msgstr ""
+"شما باید برای هر چیزی که می فروشید یا می خرید، یک محصول تعریف کنید،\n"
+"چه محصول قابل ذخیره سازی، یک کالای مصرفی یا یک خدمات"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -4540,11 +4561,13 @@ msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
+"نقل قول شما حاوی محصولات شرکت %(product_company)s است، در حالی که عبارت شما متعلق به شرکت %(quote_company)s است. \n"
+"لطفاً عبارت شرکت خود را تغییر دهید یا محصولات را از سایر شرکت ها حذف کنید (%(bad_products)s)"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_bpost
 msgid "bpost Connector"
-msgstr ""
+msgstr "اتصال دهنده bpost"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -4566,4 +4589,4 @@ msgstr "سفارش فروش"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__amount_by_group
 msgid "type: [(name, amount, base, formated amount, formated base)]"
-msgstr ""
+msgstr "نوع: [(نام، مقدار، مبنا، مقدار فرم بندی شده، پایه فرم بندی شده)]
