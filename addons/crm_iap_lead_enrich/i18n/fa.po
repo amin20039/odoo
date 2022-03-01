@@ -26,25 +26,26 @@ msgstr ""
 msgid ""
 "<span> No company data found based on the email address or email address is "
 "one of an email provider. No credit was consumed. </span>"
-msgstr ""
+msgstr "<span> هیچ داده شرکتی بر اساس آدرس ایمیل یا آدرس ایمیل یافت نشد"
+"یکی از ارائه دهندگان ایمیل است. اعتباری مصرف نشد. </span>"
 
 #. module: crm_iap_lead_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_no_email
 msgid ""
 "<span>Enrichment could not be done as no email address was provided.</span>"
-msgstr ""
+msgstr "<span>غنی سازی انجام نشد زیرا آدرس ایمیلی ارائه نشد.</span>"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.model.fields,field_description:crm_iap_lead_enrich.field_crm_lead__show_enrich_button
 msgid "Allow manual enrich"
-msgstr ""
+msgstr "اجازه غنی سازی دستی"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.actions.server,name:crm_iap_lead_enrich.ir_cron_lead_enrichment_ir_actions_server
 #: model:ir.cron,cron_name:crm_iap_lead_enrich.ir_cron_lead_enrichment
 #: model:ir.cron,name:crm_iap_lead_enrich.ir_cron_lead_enrichment
 msgid "CRM: enrich leads (IAP)"
-msgstr ""
+msgstr "CRM: غنی سازی سرنخ ها (IAP)"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.model,name:crm_iap_lead_enrich.model_res_config_settings
@@ -62,32 +63,32 @@ msgstr "نام نمایشی"
 #: model:ir.actions.server,name:crm_iap_lead_enrich.action_enrich_mail
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.crm_lead_view_form
 msgid "Enrich"
-msgstr ""
+msgstr "غنی سازی کنید"
 
 #. module: crm_iap_lead_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.crm_lead_view_form
 msgid "Enrich this lead with company data based on the email address"
-msgstr ""
+msgstr "این سرنخ را با داده های شرکت بر اساس آدرس ایمیل غنی کنید"
 
 #. module: crm_iap_lead_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.crm_lead_view_form
 msgid "Enrich this opportunity with company data based on the email address"
-msgstr ""
+msgstr "این فرصت را با داده های شرکت بر اساس آدرس ایمیل غنی کنید"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.model.fields,field_description:crm_iap_lead_enrich.field_crm_lead__iap_enrich_done
 msgid "Enrichment done"
-msgstr ""
+msgstr "غنی سازی انجام شده است"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.model,name:crm_iap_lead_enrich.model_iap_enrich_api
 msgid "IAP Lead Enrichment API"
-msgstr ""
+msgstr "IAP غنی سازی سرنخ API"
 
 #. module: crm_iap_lead_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_no_credit
 msgid "IAP account"
-msgstr ""
+msgstr "حساب IAP"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.model.fields,field_description:crm_iap_lead_enrich.field_crm_lead__id
@@ -107,14 +108,14 @@ msgstr "آخرین تغییر در"
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_no_email
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_notfound
 msgid "Lead Enrichment based on email address"
-msgstr ""
+msgstr "غنی سازی سرنخ بر اساس آدرس ایمیل"
 
 #. module: crm_iap_lead_enrich
 #: code:addons/crm_iap_lead_enrich/models/crm_lead.py:0
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_no_credit
 #, python-format
 msgid "Lead enriched based on email address"
-msgstr ""
+msgstr "سرنخ بر اساس آدرس ایمیل غنی شده است"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.model,name:crm_iap_lead_enrich.model_crm_lead
@@ -126,14 +127,15 @@ msgstr "سرنخ / فرصت"
 msgid ""
 "Whether IAP service for lead enrichment based on email has been performed on"
 " this lead."
-msgstr ""
+msgstr "آیا سرویس IAP برای غنی سازی سرنخ بر اساس ایمیل بر روی "
+"این لید انجام شده است یا خیر."
 
 #. module: crm_iap_lead_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_no_credit
 msgid "Your balance for Lead Enrichment is insufficient. Please go to your"
-msgstr ""
+msgstr "موجودی شما برای غنی سازی سرنخ کافی نیست. لطفا به سراغ خودتان بروید"
 
 #. module: crm_iap_lead_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_no_credit
 msgid "to buy credits."
-msgstr ""
+msgstr "برای خرید اعتبار"
