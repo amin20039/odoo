@@ -27,17 +27,18 @@ msgstr ""
 msgid ""
 "1 credit is consumed per visitor matching the website traffic conditions and"
 " whose company can be identified.<br/>"
-msgstr ""
+msgstr "1 اعتبار برای هر بازدید کننده مصرف می شود که با شرایط ترافیک "
+"وب سایت مطابقت دارد و شرکت او قابل شناسایی است.<br/>"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "<span class=\"o_stat_text\"> Leads </span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\"> سرنخ ها </span>"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "<span class=\"o_stat_text\"> Opportunities </span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\"> فرصت ها </span>"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__active
@@ -52,42 +53,42 @@ msgstr "بایگانی شده"
 #. module: crm_iap_lead_website
 #: model:ir.model,name:crm_iap_lead_website.model_crm_reveal_rule
 msgid "CRM Lead Generation Rules"
-msgstr ""
+msgstr "قوانین تولید پیشرو CRM"
 
 #. module: crm_iap_lead_website
 #: model:ir.model,name:crm_iap_lead_website.model_crm_reveal_view
 msgid "CRM Reveal View"
-msgstr ""
+msgstr "نمای آشکار CRM"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__lead_for
 msgid "Choose whether to track companies only or companies and their contacts"
-msgstr ""
+msgstr "انتخاب کنید که آیا فقط شرکت ها ردیابی شوند یا شرکت ها و مخاطبین آنها"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__lead_for__companies
 msgid "Companies"
-msgstr "شرکت‌ها"
+msgstr "شرکت ها"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__lead_for__people
 msgid "Companies and their Contacts"
-msgstr ""
+msgstr "شرکت ها و مخاطبین آنها"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__company_size_min
 msgid "Company Size"
-msgstr ""
+msgstr "سایز شرکت"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__company_size_max
 msgid "Company Size Max"
-msgstr ""
+msgstr "حداکثر اندازه شرکت"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "Contact Filter"
-msgstr ""
+msgstr "فیلتر مخاطب"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__country_ids
@@ -102,13 +103,13 @@ msgstr "ایجاد تاریخ"
 #. module: crm_iap_lead_website
 #: model_terms:ir.actions.act_window,help:crm_iap_lead_website.crm_reveal_rule_action
 msgid "Create a conversion rule"
-msgstr ""
+msgstr "یک قانون تبدیل ایجاد کنید"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.actions.act_window,help:crm_iap_lead_website.crm_reveal_rule_action
 msgid ""
 "Create rules to generate B2B leads/opportunities from your website visitors."
-msgstr ""
+msgstr "قوانینی برای ایجاد سرنخ/فرصت های B2B از بازدیدکنندگان وب سایت خود ایجاد کنید."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__create_uid
@@ -124,7 +125,7 @@ msgstr "ایجاد شده در"
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__lead_for
 msgid "Data Tracking"
-msgstr ""
+msgstr "ردیابی داده ها"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_lead__display_name
@@ -138,22 +139,22 @@ msgstr "نام نمایشی"
 #: code:addons/crm_iap_lead_website/models/crm_reveal_rule.py:0
 #, python-format
 msgid "Enter Valid Regex."
-msgstr ""
+msgstr "Regex معتبر را وارد کنید"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__contact_filter_type
 msgid "Filter On"
-msgstr ""
+msgstr "فیلتر روشن است"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__filter_on_size
 msgid "Filter companies based on their size."
-msgstr ""
+msgstr "شرکت ها را بر اساس اندازه آنها فیلتر کنید."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__filter_on_size
 msgid "Filter on Size"
-msgstr ""
+msgstr "فیلتر براساس اندازه"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
@@ -163,7 +164,7 @@ msgstr "از"
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__lead_ids
 msgid "Generated Lead / Opportunity"
-msgstr ""
+msgstr "سرنخ / فرصت تولید شده"
 
 #. module: crm_iap_lead_website
 #: model:ir.model,name:crm_iap_lead_website.model_ir_http
@@ -178,7 +179,7 @@ msgstr "بالا"
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_lead__reveal_iap_credits
 msgid "IAP Credits"
-msgstr ""
+msgstr "اعتبار IAP"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_lead__id
@@ -227,24 +228,24 @@ msgstr "سرنخ"
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "Lead Data"
-msgstr ""
+msgstr "داده های سرنخ"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_lead_opportunity_form
 msgid "Lead Generation Information"
-msgstr ""
+msgstr "اطلاعات نسل پیشرو"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_lead__reveal_rule_id
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view__reveal_rule_id
 msgid "Lead Generation Rule"
-msgstr ""
+msgstr "قانون تولید سرنخ"
 
 #. module: crm_iap_lead_website
 #: model:ir.actions.act_window,name:crm_iap_lead_website.crm_reveal_view_action
 #: model:ir.ui.menu,name:crm_iap_lead_website.crm_reveal_view_menu_action
 msgid "Lead Generation Views"
-msgstr ""
+msgstr "دیدگاه های نسل پیشرو"
 
 #. module: crm_iap_lead_website
 #: code:addons/crm_iap_lead_website/models/crm_reveal_rule.py:0
@@ -252,14 +253,15 @@ msgstr ""
 msgid ""
 "Lead Generation requires a GeoIP resolver which could not be found on your "
 "system. Please consult https://pypi.org/project/GeoIP/."
-msgstr ""
+msgstr "Lead Generation به یک GeoIP Resolver نیاز دارد که در سیستم شما یافت نمی شود."
+"لطفاً به https://pypi.org/project/GeoIP/ مراجعه کنید."
 
 #. module: crm_iap_lead_website
 #: model:ir.actions.server,name:crm_iap_lead_website.ir_cron_crm_reveal_lead_ir_actions_server
 #: model:ir.cron,cron_name:crm_iap_lead_website.ir_cron_crm_reveal_lead
 #: model:ir.cron,name:crm_iap_lead_website.ir_cron_crm_reveal_lead
 msgid "Lead Generation: Leads/Opportunities Generation"
-msgstr ""
+msgstr "نسل سرنخ: نسل سرنخ ها/فرصت ها "
 
 #. module: crm_iap_lead_website
 #: model:ir.model,name:crm_iap_lead_website.model_crm_lead
@@ -269,7 +271,7 @@ msgstr "سرنخ / فرصت"
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__industry_tag_ids
 msgid "Leave empty to always match. Odoo will not create lead if no match"
-msgstr ""
+msgstr "خالی بگذارید تا همیشه مطابقت داشته باشد. اودوو در صورت عدم تطابق منجر ایجاد نخواهد کرد"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__priority__0
@@ -281,12 +283,12 @@ msgstr "پایین"
 msgid ""
 "Make sure you know if you have to be GDPR compliant for storing personal "
 "data."
-msgstr ""
+msgstr "مطمئن شوید که می دانید برای ذخیره داده های شخصی باید از GDPR پیروی کنید یا خیر."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.constraint,message:crm_iap_lead_website.constraint_crm_reveal_rule_limit_extra_contacts
 msgid "Maximum 5 contacts are allowed!"
-msgstr ""
+msgstr "حداکثر 5 مخاطب مجاز است!"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__priority__1
@@ -297,41 +299,42 @@ msgstr "متوسط"
 #: code:addons/crm_iap_lead_website/models/crm_reveal_rule.py:0
 #, python-format
 msgid "Missing Library"
-msgstr ""
+msgstr "کتابخانه گم شده"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_view__reveal_state__not_found
 msgid "Not Found"
-msgstr ""
+msgstr "پیدا نشد"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__extra_contacts
 msgid "Number of Contacts"
-msgstr ""
+msgstr "تعداد مخاطبین"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__lead_count
 msgid "Number of Generated Leads"
-msgstr ""
+msgstr "تعداد سرنخ های بوجود آمده"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__opportunity_count
 msgid "Number of Generated Opportunity"
-msgstr ""
+msgstr "تعداد فرصت های ایجاد شده"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__country_ids
 msgid ""
 "Only visitors of following countries will be converted into "
 "leads/opportunities (using GeoIP)."
-msgstr ""
+msgstr "فقط بازدیدکنندگان کشورهای زیر به سرنخ/فرصت (با استفاده از GeoIP) تبدیل خواهند شد."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__state_ids
 msgid ""
 "Only visitors of following states will be converted into "
 "leads/opportunities."
-msgstr ""
+msgstr "فقط بازدیدکنندگان ایالت های زیر به "
+"سرنخ/فرصت تبدیل می شوند."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__lead_type__opportunity
@@ -341,28 +344,28 @@ msgstr "فرصت"
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "Opportunity Data"
-msgstr ""
+msgstr "داده های فرصت"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "Opportunity Generation Conditions"
-msgstr ""
+msgstr "شرایط ایجاد فرصت"
 
 #. module: crm_iap_lead_website
 #: code:addons/crm_iap_lead_website/models/crm_reveal_rule.py:0
 #, python-format
 msgid "Opportunity created by Odoo Lead Generation"
-msgstr ""
+msgstr "فرصت ایجاد شده توسط نسل سرنخ اودوو"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__other_role_ids
 msgid "Other Roles"
-msgstr ""
+msgstr "نقش های دیگر"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__preferred_role_id
 msgid "Preferred Role"
-msgstr ""
+msgstr "نقش ترجیحی"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__priority
@@ -375,12 +378,13 @@ msgid ""
 "Regex to track website pages. Leave empty to track the entire website, or / "
 "to target the homepage. Example: /page* to track all the pages which begin "
 "with /page"
-msgstr ""
+msgstr "Regex برای ردیابی صفحات وب سایت. برای ردیابی کل وب سایت، یا برای هدف قرار دادن"
+"صفحه اصلی، خالی بگذارید. مثال: /page* برای ردیابی تمام صفحاتی که با /page شروع می شوند."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__website_id
 msgid "Restrict Lead generation to this website."
-msgstr ""
+msgstr "تولید سرنخ را به این وب سایت محدود کنید."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__contact_filter_type__role
@@ -410,13 +414,13 @@ msgstr "فروشنده"
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_view_search
 msgid "Search CRM Reveal Rule"
-msgstr ""
+msgstr "قانون آشکارسازی CRM را جستجو کنید"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__seniority_id
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__contact_filter_type__seniority
 msgid "Seniority"
-msgstr ""
+msgstr "ارشدیت"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__sequence
@@ -450,13 +454,17 @@ msgid ""
 "criteria. Their details will show up in the history thread of generated "
 "leads/opportunities. One credit is consumed per tracked contact."
 msgstr ""
+"این تعداد مخاطبینی است که باید پیگیری شود که آیا نقش/سلامت آنها با معیارهای شما"
+"مطابقت دارد. جزئیات آنها در رشته تاریخچه سرنخ ها/فرصت های ایجاد شده نشان داده می شود."
+"به ازای هر مخاطب ردیابی شده یک اعتبار مصرف می شود."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__suffix
 msgid ""
 "This will be appended in name of generated lead so you can identify "
 "lead/opportunity is generated with this rule"
-msgstr ""
+msgstr "این به نام سرنخ تولید شده اضافه می شود تا بتوانید تشخیص دهید"
+"سرنخ/فرصت با این قانون ایجاد شده است"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_view__reveal_state__to_process
@@ -471,12 +479,12 @@ msgstr "نوع"
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__regex_url
 msgid "URL Expression"
-msgstr ""
+msgstr "بیان URL"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "Up to"
-msgstr ""
+msgstr "تا"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__sequence
@@ -484,6 +492,8 @@ msgid ""
 "Used to order the rules with same URL and countries. Rules with a lower "
 "sequence number will be processed first."
 msgstr ""
+"برای سفارش قوانین با URL و کشورهای مشابه استفاده می شود. ابتدا قوانین "
+"با شماره دنباله کمتر پردازش می شوند."
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__priority__3
@@ -494,7 +504,7 @@ msgstr "خیلی زیاد"
 #: model:ir.actions.act_window,name:crm_iap_lead_website.crm_reveal_rule_action
 #: model:ir.ui.menu,name:crm_iap_lead_website.crm_reveal_rule_menu_action
 msgid "Visits to Leads Rules"
-msgstr ""
+msgstr "قوانین بازدید از سرنخ ها"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__website_id
@@ -504,27 +514,27 @@ msgstr "وبسایت"
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "Website Traffic Conditions"
-msgstr ""
+msgstr "شرایط ترافیک وب سایت"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "additional credit(s) are consumed if the company matches this rule."
-msgstr ""
+msgstr "اگر شرکت با این قانون مطابقت داشته باشد، اعتبار(های) اضافی مصرف می شود."
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "e.g. /page"
-msgstr ""
+msgstr "به عنوان مثال، /صفحه"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "e.g. US Visitors"
-msgstr ""
+msgstr "به عنوان مثال، بازدیدکنندگان ایالات متحده"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "employees"
-msgstr ""
+msgstr "کارمندان"
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
