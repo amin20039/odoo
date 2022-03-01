@@ -28,12 +28,12 @@ msgstr ""
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "%d credits will be consumed to find %d companies."
-msgstr ""
+msgstr "%d اعتبار برای یافتن %d شرکت مصرف خواهد شد."
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.enrich_company
 msgid "<b>Contacts</b>"
-msgstr ""
+msgstr "<b>مخاطب ها</b>"
 
 #. module: crm_iap_lead
 #: model:mail.template,body_html:crm_iap_lead.lead_generation_no_credits
@@ -46,6 +46,13 @@ msgid ""
 "    <p>Odoo S.A.</p>\n"
 "</div>"
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p>عزیز,</p>\n"
+"    <p>هیچ اعتبار دیگری در حساب IAP Lead Generation شما وجود ندارد.<br/>\n"
+"     می توانید حساب IAP Lead Generation خود را در تنظیمات برنامه CRM شارژ کنید.<br/></p>\n"
+"     <p>با احترام،</p>\n"
+"     <p>اودوو S.A.</p>\n"
+"</div>"
 
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
@@ -57,6 +64,11 @@ msgid ""
 "            No leads could be generated according to your search criteria\n"
 "        </p>"
 msgstr ""
+"<p class=\"o_view_nocontent_empty_folder\">\n"
+"            سرنخی پیدا نشد\n"
+"        </p><p>\n"
+"            بر اساس معیارهای جستجوی شما، هیچ سرنخ هایی ایجاد نشد\n"
+"        </p>"
 
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
@@ -68,36 +80,41 @@ msgid ""
 "            No opportunities could be generated according to your search criteria\n"
 "        </p>"
 msgstr ""
+"<p class=\"o_view_nocontent_empty_folder\">\n"
+"           فرصتی پیدا نشد\n"
+"        </p><p>\n"
+"            بر اساس معیارهای جستجوی شما، هیچ فرصت هایی ایجاد نشد\n"
+"        </p>"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
 msgid "<span class=\"col-md-6\">Extra contacts per Company</span>"
-msgstr ""
+msgstr "<span class=\"col-md-6\">مخاطبین اضافی در هر شرکت</span>"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
 msgid "<span class=\"o_stat_text\">Leads</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">سرنخ ها</span>"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
 msgid "<span class=\"o_stat_text\">Opportunities</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">فرصت ها</span>"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_238
 msgid "Automobiles & Components"
-msgstr ""
+msgstr "خودروها و قطعات"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_157
 msgid "Banks"
-msgstr "بانک‌ها"
+msgstr "بانک ها"
 
 #. module: crm_iap_lead
 #: model:ir.model,name:crm_iap_lead.model_crm_iap_lead_mining_request
 msgid "CRM Lead Mining Request"
-msgstr ""
+msgstr "درخواست برداشت سرنخ CRM"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
@@ -107,7 +124,7 @@ msgstr "لغو"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_162
 msgid "Capital Goods"
-msgstr ""
+msgstr "کالاهای سرمایه ای"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_industry__color
@@ -118,47 +135,47 @@ msgstr "شاخص رنگ"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_163
 msgid "Commercial & Professional Services"
-msgstr ""
+msgstr "خدمات تجاری و حرفه ای"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields.selection,name:crm_iap_lead.selection__crm_iap_lead_mining_request__search_type__companies
 msgid "Companies"
-msgstr "شرکت‌ها"
+msgstr "شرکت ها"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields.selection,name:crm_iap_lead.selection__crm_iap_lead_mining_request__search_type__people
 msgid "Companies and their Contacts"
-msgstr ""
+msgstr "شرکت ها و مخاطبین آنها"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__company_size_max
 msgid "Company Size Max"
-msgstr ""
+msgstr "حداکثر اندازه شرکت"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_167
 msgid "Construction Materials"
-msgstr ""
+msgstr "مصالح و مواد ساختمانی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_30
 msgid "Consumer Discretionary"
-msgstr ""
+msgstr "اختیاری مصرف کننده"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_239
 msgid "Consumer Durables & Apparel"
-msgstr ""
+msgstr "لوازم مصرفی و پوشاک"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_150
 msgid "Consumer Services"
-msgstr ""
+msgstr "خدمات مصرف کننده""
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_33
 msgid "Consumer Staples"
-msgstr ""
+msgstr "مواد اولیه مصرف کننده"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__country_ids
@@ -169,7 +186,7 @@ msgstr "کشورها"
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "Create a Lead Mining Request"
-msgstr ""
+msgstr "یک درخواست برداشت سرنخ ایجاد کنید"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_helpers__create_uid
@@ -192,12 +209,12 @@ msgstr "ایجاد شده در"
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
 msgid "Default Tags"
-msgstr "برچسپ‌های پیش‌فرض"
+msgstr "برچسپ های پیش فرض"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__display_lead_label
 msgid "Display Lead Label"
-msgstr ""
+msgstr "نمایش برچسب سرنخ"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_helpers__display_name
@@ -212,17 +229,17 @@ msgstr "نام نمایشی"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_151
 msgid "Diversified Consumer Services"
-msgstr ""
+msgstr "خدمات متنوع مصرف کننده"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_158
 msgid "Diversified Financial Services"
-msgstr ""
+msgstr "خدمات مالی متنوع"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_159
 msgid "Diversified Financials"
-msgstr ""
+msgstr "منابع مالی متنوع"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields.selection,name:crm_iap_lead.selection__crm_iap_lead_mining_request__state__done
@@ -244,7 +261,7 @@ msgstr "ایمیل"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_156
 msgid "Energy Equipment & Services"
-msgstr ""
+msgstr "تجهیزات و خدمات انرژی"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__error
@@ -256,22 +273,22 @@ msgstr "خطا"
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__contact_filter_type
 msgid "Filter on"
-msgstr ""
+msgstr "فیلتر روشن است"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__filter_on_size
 msgid "Filter on Size"
-msgstr ""
+msgstr "فیلتر بر اساس اندازه"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_153
 msgid "Food & Staples Retailing"
-msgstr ""
+msgstr "خرده فروشی مواد غذایی و مواد اولیه"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_154
 msgid "Food, Beverage & Tobacco"
-msgstr ""
+msgstr "غذا، نوشیدنی و تنباکو"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
@@ -284,18 +301,18 @@ msgstr "از"
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
 #, python-format
 msgid "Generate Leads"
-msgstr ""
+msgstr "تولید سرنخ"
 
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "Generate new leads based on their country, industry, size, etc."
-msgstr ""
+msgstr "تولید سرنخ های جدید بر اساس کشور، صنعت، اندازه و غیره."
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__lead_ids
 msgid "Generated Lead / Opportunity"
-msgstr ""
+msgstr "سرنخ / فرصت تولید شده"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_search
@@ -305,22 +322,22 @@ msgstr "دسته بندی بر مبنای"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_160
 msgid "Health Care Equipment & Services"
-msgstr ""
+msgstr "تجهیزات و خدمات مراقبت های بهداشتی"
 
 #. module: crm_iap_lead
 #: model:ir.model,name:crm_iap_lead.model_crm_iap_lead_helpers
 msgid "Helper methods for crm_iap_lead modules"
-msgstr ""
+msgstr "روش های کمکی برای ماژول های crm_iap_lead"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_155
 msgid "Household & Personal Products"
-msgstr ""
+msgstr "محصولات خانگی و شخصی"
 
 #. module: crm_iap_lead
 #: model:mail.template,subject:crm_iap_lead.lead_generation_no_credits
 msgid "IAP Lead Generation Notification"
-msgstr ""
+msgstr "اعلان تولید سرنخ IAP"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_helpers__id
@@ -335,12 +352,12 @@ msgstr "شناسه"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_168
 msgid "Independent Power and Renewable Electricity Producers"
-msgstr ""
+msgstr "تولیدکنندگان مستقل برق و برق تجدیدپذیر"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_146
 msgid "Industrials"
-msgstr ""
+msgstr "صنایع"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__industry_ids
@@ -350,12 +367,12 @@ msgstr "صنایع"
 #. module: crm_iap_lead
 #: model:ir.model,name:crm_iap_lead.model_crm_iap_lead_industry
 msgid "Industry Tag"
-msgstr ""
+msgstr "برچسب صنعت"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_69
 msgid "Insurance"
-msgstr ""
+msgstr "بیمه"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_helpers____last_update
@@ -388,12 +405,12 @@ msgstr "آخرین به روز رسانی در"
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__lead_contacts_credits
 msgid "Lead Contacts Credits"
-msgstr ""
+msgstr "اعتبارات مخاطبین سرنخ"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__lead_credits
 msgid "Lead Credits"
-msgstr ""
+msgstr "اعتبارات سرنخ"
 
 #. module: crm_iap_lead
 #: model:ir.ui.menu,name:crm_iap_lead.crm_menu_lead_generation
@@ -404,18 +421,18 @@ msgstr "ایجاد سرنخ"
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_lead__lead_mining_request_id
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_search
 msgid "Lead Mining Request"
-msgstr ""
+msgstr "درخواست برداشت سرنخ"
 
 #. module: crm_iap_lead
 #: model:ir.actions.act_window,name:crm_iap_lead.crm_iap_lead_mining_request_action
 #: model:ir.ui.menu,name:crm_iap_lead.crm_iap_lead_mining_request_menu_action
 msgid "Lead Mining Requests"
-msgstr ""
+msgstr "درخواست های برداشت سرنخ"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__lead_total_credits
 msgid "Lead Total Credits"
-msgstr ""
+msgstr "کل اعتبارات سرنخ"
 
 #. module: crm_iap_lead
 #: model:ir.model,name:crm_iap_lead.model_crm_lead
@@ -435,16 +452,17 @@ msgstr "سرنخ ها"
 msgid ""
 "Looking for more opportunities ?<br>Try the <b>Lead Generation</b> tool."
 msgstr ""
+"به دنبال فرصت های بیشتری هستید؟<br>ابزار <b>نسل پیشرو</b> را امتحان کنید"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_148
 msgid "Materials"
-msgstr ""
+msgstr "صنایع"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_86
 msgid "Media"
-msgstr ""
+msgstr "رسانه"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_seniority__name
@@ -455,7 +473,7 @@ msgstr "نام"
 #. module: crm_iap_lead
 #: model:ir.model.constraint,message:crm_iap_lead.constraint_crm_iap_lead_seniority_name_uniq
 msgid "Name already exists!"
-msgstr ""
+msgstr "نام از قبل وجود دارد!"
 
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
@@ -471,55 +489,55 @@ msgstr "جدید"
 #: code:addons/crm_iap_lead/static/src/js/tours/crm_iap_lead.js:0
 #, python-format
 msgid "Now, just let the magic happen!"
-msgstr ""
+msgstr "حالا، فقط بگذارید جادو اتفاق بیفتد!"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__contact_number
 msgid "Number of Contacts"
-msgstr ""
+msgstr "تعداد مخاطبین"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__lead_count
 msgid "Number of Generated Leads"
-msgstr ""
+msgstr "تعداد سرنخ های تولید شده"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__lead_number
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_tree
 msgid "Number of Leads"
-msgstr ""
+msgstr "تعداد سرنخ ها"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields.selection,name:crm_iap_lead.selection__crm_iap_lead_mining_request__lead_type__opportunity
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_search
 msgid "Opportunities"
-msgstr "فرصت‌ها"
+msgstr "فرصت ها"
 
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "Opportunity created by Odoo Lead Generation"
-msgstr ""
+msgstr "فرصت ایجاد شده توسط Odoo Lead Generation"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__role_ids
 msgid "Other Roles"
-msgstr ""
+msgstr "نقش های دیگر"
 
 #. module: crm_iap_lead
 #: model:ir.model,name:crm_iap_lead.model_crm_iap_lead_role
 msgid "People Role"
-msgstr ""
+msgstr "نقش مردم"
 
 #. module: crm_iap_lead
 #: model:ir.model,name:crm_iap_lead.model_crm_iap_lead_seniority
 msgid "People Seniority"
-msgstr ""
+msgstr "ارشدیت مردم"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_161
 msgid "Pharmaceuticals, Biotechnology & Life Sciences"
-msgstr ""
+msgstr "داروسازی، بیوتکنولوژی و علوم زیستی"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.enrich_company
@@ -529,7 +547,7 @@ msgstr "تلفن"
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__preferred_role_id
 msgid "Preferred Role"
-msgstr ""
+msgstr "نقش ترجیحی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_114
@@ -539,12 +557,12 @@ msgstr "مشاور املاک"
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__name
 msgid "Request Number"
-msgstr ""
+msgstr "شماره درخواست"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_152
 msgid "Retailing"
-msgstr ""
+msgstr "خرده فروشی"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
@@ -556,7 +574,7 @@ msgstr "تلاش دوباره"
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_role__reveal_id
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_seniority__reveal_id
 msgid "Reveal"
-msgstr ""
+msgstr "آشکار ساختن"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields.selection,name:crm_iap_lead.selection__crm_iap_lead_mining_request__contact_filter_type__role
@@ -566,12 +584,12 @@ msgstr "نقش"
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_role__name
 msgid "Role Name"
-msgstr ""
+msgstr "نام نقش"
 
 #. module: crm_iap_lead
 #: model:ir.model.constraint,message:crm_iap_lead.constraint_crm_iap_lead_role_name_uniq
 msgid "Role name already exists!"
-msgstr ""
+msgstr "نام نقش از قبل وجود دارد!"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__team_id
@@ -588,13 +606,13 @@ msgstr "فروشنده"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_164
 msgid "Semiconductors & Semiconductor Equipment"
-msgstr ""
+msgstr "نیمه رساناها و تجهیزات نیمه هادی"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__seniority_id
 #: model:ir.model.fields.selection,name:crm_iap_lead.selection__crm_iap_lead_mining_request__contact_filter_type__seniority
 msgid "Seniority"
-msgstr ""
+msgstr "ارشدیت"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__company_size_min
@@ -604,7 +622,7 @@ msgstr "اندازه"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_165
 msgid "Software & Services"
-msgstr ""
+msgstr "نرم افزار و خدمات"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__state_ids
@@ -629,7 +647,7 @@ msgstr "نام تگ"
 #. module: crm_iap_lead
 #: model:ir.model.constraint,message:crm_iap_lead.constraint_crm_iap_lead_industry_name_uniq
 msgid "Tag name already exists!"
-msgstr ""
+msgstr "نام برچسب از قبل وجود دارد!"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__tag_ids
@@ -644,18 +662,18 @@ msgstr "هدف"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_166
 msgid "Technology Hardware & Equipment"
-msgstr ""
+msgstr "سخت افزار و تجهیزات فناوری"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_149
 msgid "Telecommunication Services"
-msgstr ""
+msgstr "خدمات مخابراتی"
 
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "This makes a total of %d credits for this request."
-msgstr ""
+msgstr "این در مجموع %d اعتبار برای این درخواست ایجاد می کند"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.enrich_company
@@ -680,123 +698,124 @@ msgid ""
 "Up to %d additional credits will be consumed to identify %d contacts per "
 "company."
 msgstr ""
-
+"حداکثر %d اعتبار اضافی برای شناسایی %d مخاطب در هر مصرف خواهد شد."
+" شرکت"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.industry,name:crm_iap_lead.crm_iap_lead_industry_138
 msgid "Utilities"
-msgstr ""
+msgstr "خدمات رفاهی"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
 msgid "What do you need ?"
-msgstr ""
+msgstr "چه چیزی نیاز دارید ؟"
 
 #. module: crm_iap_lead
 #. openerp-web
 #: code:addons/crm_iap_lead/static/src/js/tours/crm_iap_lead.js:0
 #, python-format
 msgid "Which Industry do you want to target?"
-msgstr ""
+msgstr "کدام صنعت را می خواهید هدف بگیرید؟"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_1
 msgid "ceo"
-msgstr ""
+msgstr "ceo"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_2
 msgid "communications"
-msgstr ""
+msgstr "ارتباطات"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_3
 msgid "consulting"
-msgstr ""
+msgstr "مشاوره"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_4
 msgid "customer_service"
-msgstr ""
+msgstr "خدمات_مشتری"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.seniority,name:crm_iap_lead.crm_iap_lead_seniority_1
 msgid "director"
-msgstr ""
+msgstr "کارگردان"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_5
 msgid "education"
-msgstr ""
+msgstr "تحصیلات"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
 msgid "employees"
-msgstr ""
+msgstr "کارمندان"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_6
 msgid "engineering"
-msgstr ""
+msgstr "مهندسی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.seniority,name:crm_iap_lead.crm_iap_lead_seniority_2
 msgid "executive"
-msgstr ""
+msgstr "اجرایی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_7
 msgid "finance"
-msgstr ""
+msgstr "امور مالی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_8
 msgid "founder"
-msgstr ""
+msgstr "موسس"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_9
 msgid "health_professional"
-msgstr ""
+msgstr "متخصص_سلامت"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_10
 msgid "human_resources"
-msgstr ""
+msgstr "منابع_انسانی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_11
 msgid "information_technology"
-msgstr ""
+msgstr "فناوری_اطلاعات"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_12
 msgid "legal"
-msgstr ""
+msgstr "قانونی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.seniority,name:crm_iap_lead.crm_iap_lead_seniority_3
 msgid "manager"
-msgstr ""
+msgstr "مدیر"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_13
 msgid "marketing"
-msgstr ""
+msgstr "بازاریابی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_14
 msgid "operations"
-msgstr ""
+msgstr "عملیات"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_15
 msgid "owner"
-msgstr ""
+msgstr "مالک"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_16
 msgid "president"
-msgstr ""
+msgstr "رئيس جمهور"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_17
@@ -806,27 +825,27 @@ msgstr "محصول"
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_18
 msgid "public_relations"
-msgstr ""
+msgstr "روابط عمومی"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_19
 msgid "real_estate"
-msgstr ""
+msgstr "مشاور_املاک"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_20
 msgid "recruiting"
-msgstr ""
+msgstr "استخدام"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_21
 msgid "research"
-msgstr ""
+msgstr "پژوهش"
 
 #. module: crm_iap_lead
 #: model:crm.iap.lead.role,name:crm_iap_lead.crm_iap_lead_role_22
 msgid "sale"
-msgstr ""
+msgstr "فروش"
 
 #. module: crm_iap_lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead.crm_iap_lead_mining_request_form
