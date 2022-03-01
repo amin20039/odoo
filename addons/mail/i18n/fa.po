@@ -43,7 +43,7 @@ msgstr "این کانال خصوصی است. افراد باید دعوت شون
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "${object.partner_id.lang}"
-msgstr ""
+msgstr "${object.partner_id.lang}"
 
 #. module: mail
 #: code:addons/mail/models/mail_activity.py:0
@@ -203,6 +203,11 @@ msgid ""
 "            Type <b>/command</b> to execute a command.<br>\n"
 "            Type <b>:shortcut</b> to insert a canned response in your message.<br>"
 msgstr ""
+"<br><br>\n"
+"            برای نام بردن از شخصی، <b>نام کاربری@</b> را تایپ کنید و توجه او را جلب کنید.<br>\n"
+"            برای ذکر کانال، <b>#channel</b> را تایپ کنید.<br>\n"
+"            برای اجرای یک فرمان، <b>/command</b> را تایپ کنید.<br>\n"
+"            <b>:shortcut</b> را برای درج یک پاسخ در پیام خود تایپ کنید.<br>"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -273,6 +278,7 @@ msgid ""
 " notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
 "Start your message with <i>'/'</i> to get the list of possible commands.</p>"
 msgstr ""
+"
 
 #. module: mail
 #. openerp-web
