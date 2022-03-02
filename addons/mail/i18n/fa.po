@@ -2258,24 +2258,24 @@ msgstr "ایمیل ها"
 #: model:ir.model.fields,field_description:mail.field_mail_mail__is_internal
 #: model:ir.model.fields,field_description:mail.field_mail_message__is_internal
 msgid "Employee Only"
-msgstr ""
+msgstr "فقط کارمند"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model_fields__tracking
 msgid "Enable Ordered Tracking"
-msgstr ""
+msgstr "ردیابی سفارش را فعال کنید"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
 msgid "Enable desktop notifications to chat."
-msgstr ""
+msgstr "اعلان های دسکتاپ را برای چت فعال کنید."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
 msgid "Envelope Example"
-msgstr ""
+msgstr "نمونه پاکت نامه"
 
 #. module: mail
 #. openerp-web
@@ -2296,7 +2296,7 @@ msgstr "پیام ارور"
 #: code:addons/mail/models/update.py:0
 #, python-format
 msgid "Error during communication with the publisher warranty server."
-msgstr ""
+msgstr "خطا در هنگام ارتباط با سرور گارانتی ناشر"
 
 #. module: mail
 #: code:addons/mail/models/mail_mail.py:0
@@ -2304,7 +2304,8 @@ msgstr ""
 msgid ""
 "Error without exception. Probably due do concurrent access update of "
 "notification records. Please see with an administrator."
-msgstr ""
+msgstr "خطا بدون استثنا. احتمالاً به دلیل به روز رسانی دسترسی همزمان"
+"سوابق اعلان است. لطفا با یک مدیر مراجعه کنید"
 
 #. module: mail
 #: code:addons/mail/models/mail_mail.py:0
@@ -2312,23 +2313,25 @@ msgstr ""
 msgid ""
 "Error without exception. Probably due do sending an email without computed "
 "recipients."
-msgstr ""
+msgstr "خطا بدون استثنا. احتمالاً به دلیل ارسال یک ایمیل بدون "
+"دریافت کنندگان محاسبه شده است."
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_followers_mail_followers_res_channel_res_model_id_uniq
 msgid "Error, a channel cannot follow twice the same object."
-msgstr ""
+msgstr "خطا، یک کانال نمی تواند دو بار یک شی را دنبال کند"
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_followers_mail_followers_res_partner_res_model_id_uniq
 msgid "Error, a partner cannot follow twice the same object."
-msgstr ""
+msgstr "خطا، یک شریک نمی‌تواند دو بار یک شی را دنبال کند."
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_followers_partner_xor_channel
 msgid ""
 "Error: A follower must be either a partner or a channel (but not both)."
 msgstr ""
+"خطا: یک فالوور باید یا شریک یا کانال باشد (اما نه هر دو)."
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_alias__alias_contact__everyone
@@ -2350,7 +2353,7 @@ msgstr "فیلتر های بسط یافته..."
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__fail_counter
 msgid "Fail Mail"
-msgstr ""
+msgstr "ایمیل ناموفق"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_search
@@ -2361,13 +2364,13 @@ msgstr "به شکست انجامید"
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Failed to render template : %s"
-msgstr ""
+msgstr "ارائه الگو : %s انجام نشد"
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Failed to render template : %s (%d)"
-msgstr ""
+msgstr "ارائه الگو انجام نشد: %s (%d)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__failure_reason
@@ -2385,7 +2388,8 @@ msgstr "دلیل شکست"
 msgid ""
 "Failure reason. This is usually the exception thrown by the email server, "
 "stored to ease the debugging of mailing issues."
-msgstr ""
+msgstr "علت شکست. این معمولاً استثنایی است که توسط سرور ایمیل ایجاد می شود"
+"و برای سهولت اشکال زدایی مشکلات پستی ذخیره می شود."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_notification__failure_type
@@ -2396,7 +2400,7 @@ msgstr "نوع شکست"
 #: model:ir.model.fields,field_description:mail.field_mail_mail__starred_partner_ids
 #: model:ir.model.fields,field_description:mail.field_mail_message__starred_partner_ids
 msgid "Favorited By"
-msgstr ""
+msgstr "برگزیده شده توسط"
 
 #. module: mail
 #. openerp-web
@@ -2416,29 +2420,29 @@ msgstr "فیلدفیلد"
 #: code:addons/mail/models/ir_model.py:0
 #, python-format
 msgid "Field \"Mail Activity\" cannot be changed to \"False\"."
-msgstr ""
+msgstr "فیلد \"فعالیت نامه\" را نمی توان به \"نادرست\" تغییر داد"."
 
 #. module: mail
 #: code:addons/mail/models/ir_model.py:0
 #, python-format
 msgid "Field \"Mail Blacklist\" cannot be changed to \"False\"."
-msgstr ""
+msgstr "فیلد \"فعالیت نامه\" را نمی توان به \"نادرست\" تغییر داد."
 
 #. module: mail
 #: code:addons/mail/models/ir_model.py:0
 #, python-format
 msgid "Field \"Mail Thread\" cannot be changed to \"False\"."
-msgstr ""
+msgstr "فیلد \"رشته نامه\" را نمی توان به \"نادرست\" تغییر داد."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__field_desc
 msgid "Field Description"
-msgstr ""
+msgstr "توضیحات فیلد"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__field_groups
 msgid "Field Groups"
-msgstr ""
+msgstr "گروه های فیلد"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__field_type
@@ -2456,7 +2460,9 @@ msgid ""
 "Field used to link the related model to the subtype model when using "
 "automatic subscription on a related document. The field is used to compute "
 "getattr(related_document.relation_field)."
-msgstr ""
+msgstr "فیلد مورد استفاده برای پیوند مدل مرتبط با مدل فرعی هنگام استفاده "
+"از اشتراک خودکار در یک سند مرتبط. این فیلد برای محاسبه"
+"getattr(related_document.relation_field) استفاده می شود."
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_model_fields
@@ -2469,14 +2475,14 @@ msgstr "فیلدها"
 msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
-msgstr ""
+msgstr "عبارت مکان نمای نهایی، در قسمت قالب مورد نظر کپی شود."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/discuss_sidebar/discuss_sidebar.js:0
 #, python-format
 msgid "Find or create a channel..."
-msgstr ""
+msgstr "پیدا کردن یا ایجاد یک کانال..."
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel_partner__fold_state__folded
@@ -2502,7 +2508,7 @@ msgstr "دنبال کردن"
 #: model:ir.ui.menu,name:mail.menu_email_followers
 #: model_terms:ir.ui.view,arch_db:mail.view_followers_tree
 msgid "Followers"
-msgstr "دنبال‌کنندگان"
+msgstr "دنبال کنندگان"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__message_channel_ids
@@ -2554,7 +2560,7 @@ msgstr "دنبال می کند"
 #: code:addons/mail/models/mail_channel.py:778
 #, python-format
 msgid "Following invites are invalid as user groups do not match: %s"
-msgstr ""
+msgstr "دعوت های زیر نامعتبر هستند زیرا گروه های کاربر مطابقت ندارند: %s"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__icon
@@ -2584,7 +2590,7 @@ msgstr "از"
 #: code:addons/mail/static/src/components/composer/composer.xml:0
 #, python-format
 msgid "Full composer"
-msgstr ""
+msgstr "آهنگساز کامل"
 
 #. module: mail
 #. openerp-web
@@ -2602,12 +2608,12 @@ msgstr "فعالیتهای آینده"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_message_view_form
 msgid "Gateway"
-msgstr ""
+msgstr "دروازه"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__activity_user_type__generic
 msgid "Generic User From Record"
-msgstr ""
+msgstr "کاربر عمومی از رکورد"
 
 #. module: mail
 #: code:addons/mail/models/res_users.py:0
@@ -2625,23 +2631,23 @@ msgstr "دسته بندی بر مبنای"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_email_template_search
 msgid "Group by..."
-msgstr "گروه‌بندی بر اساس..."
+msgstr "گروه بندی بر اساس..."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_tree
 msgid "Groups"
-msgstr "گروه‌ها"
+msgstr "گروه ها"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__moderation_guidelines_msg
 msgid "Guidelines"
-msgstr ""
+msgstr "دستورالعمل ها"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "Guidelines of channel %s"
-msgstr ""
+msgstr "دستورالعمل های کانال %s"
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_http
@@ -2651,22 +2657,22 @@ msgstr "مسیریابی HTTP"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__email
 msgid "Handle by Emails"
-msgstr ""
+msgstr "مدیریت از طریق ایمیل"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
 msgid "Handle in Odoo"
-msgstr ""
+msgstr "مدیریت از طریق اودوو"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
 msgid "Has Cancel"
-msgstr ""
+msgstr "لغو شده است"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_message_search
 msgid "Has Mentions"
-msgstr ""
+msgstr "دارای منشن"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__has_error
@@ -2674,7 +2680,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_mail__has_error
 #: model:ir.model.fields,help:mail.field_mail_message__has_error
 msgid "Has error"
-msgstr ""
+msgstr "دارای ارور"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__headers
@@ -2709,6 +2715,9 @@ msgid ""
 "The following email sent to %s cannot be accepted because this is a private email address.\n"
 "Only allowed people can contact us at this address."
 msgstr ""
+"سلام,<br/>\n"
+"ایمیل زیر ارسال شده به %s قابل قبول نیست زیرا این یک آدرس ایمیل خصوصی است.\n"
+"فقط افراد مجاز می توانند در این آدرس با ما تماس بگیرند."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype__hidden
@@ -2718,7 +2727,7 @@ msgstr "پنهان"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__hidden
 msgid "Hide the subtype in the follower options"
-msgstr ""
+msgstr "زیرمجموعه را در گزینه های فالوور مخفی کنید"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__is_internal
@@ -2726,6 +2735,7 @@ msgstr ""
 msgid ""
 "Hide to public / portal users, independently from subtype configuration."
 msgstr ""
+"مخفی کردن برای کاربران عمومی / پورتال، مستقل از پیکربندی زیرمجموعه."
 
 #. module: mail
 #. openerp-web
@@ -2790,6 +2800,8 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
+"شناسه رکورد والد حاوی نام مستعار (مثال: پروژه ای که نام"
+"مستعار ایجاد کار را نگه می دارد)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__icon
@@ -2811,7 +2823,7 @@ msgstr "آیکون برای نشان دادن یک فعالیت استثنا."
 #: model:ir.model.fields,help:mail.field_mail_followers__res_id
 #: model:ir.model.fields,help:mail.field_mail_wizard_invite__res_id
 msgid "Id of the followed resource"
-msgstr ""
+msgstr "شناسه منبع دنبال شده"
 
 #. module: mail
 #. openerp-web
@@ -2837,8 +2849,7 @@ msgstr "بیکار"
 #: model:ir.model.fields,help:mail.field_res_users__message_needaction
 #: model:ir.model.fields,help:mail.field_res_users__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
-"اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت."
+msgstr "اگر این گزینه را انتخاب کنید، پیام های جدید به توجه شما نیاز خواهند داشت."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_blacklist__message_has_error
@@ -2856,7 +2867,8 @@ msgstr "در صورت بررسی ، برخی پیام ها خطای تحویل �
 msgid ""
 "If checked, the partners will receive an email warning they have been added "
 "in the document's followers."
-msgstr ""
+msgstr "در صورت علامت زدن، شرکا یک ایمیل هشدار دریافت خواهند کرد که"
+"در فالوورهای سند اضافه شده اند."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_ir_model_fields__tracking
@@ -2864,6 +2876,8 @@ msgid ""
 "If set every modification done to this field is tracked in the chatter. "
 "Value is used to order tracking values."
 msgstr ""
+"اگر تنظیم شود، هر تغییری که در این فیلد انجام می شود در چت ردیابی می شود."
+"مقدار برای سفارش مقادیر ردیابی استفاده می شود"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__scheduled_date
@@ -2871,6 +2885,8 @@ msgid ""
 "If set, the queue manager will send the email after the date. If not set, "
 "the email will be send as soon as possible."
 msgstr ""
+"در صورت تنظیم، مدیر صف ایمیل را بعد از تاریخ ارسال می کند. در صورت عدم تنظیم،"
+"ایمیل در اسرع وقت ارسال خواهد شد."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__scheduled_date
@@ -2878,6 +2894,8 @@ msgid ""
 "If set, the queue manager will send the email after the date. If not set, "
 "the email will be send as soon as possible. Jinja2 placeholders may be used."
 msgstr ""
+"در صورت تنظیم، مدیر صف ایمیل را بعد از تاریخ ارسال می کند. در صورت عدم تنظیم،"
+"ایمیل در اسرع وقت ارسال خواهد شد. ممکن است از متغیرهای Jinja2 استفاده شود."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_bounced_content
@@ -2887,6 +2905,8 @@ msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
 msgstr ""
+"در صورت تنظیم، این محتوا به جای پیام "
+"پیش فرض، به طور خودکار برای کاربران غیرمجاز ارسال می شود."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_thread_blacklist__is_blacklisted
@@ -2896,12 +2916,15 @@ msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
 msgstr ""
+"اگر آدرس ایمیل در لیست سیاه باشد، مخاطب دیگر پستی" 
+"انبوه از هیچ لیستی دریافت نخواهد کرد"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_followers__is_active
 msgid ""
 "If the related partner is active (if exist) or if related channel exist"
 msgstr ""
+"اگر شریک مرتبط فعال باشد (در صورت وجود) یا اگر کانال مرتبط وجود داشته باشد"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
@@ -2909,6 +2932,8 @@ msgid ""
 "If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
+"اگر یک دامنه ایمیل همه جانبه را تنظیم کرده اید که به سرور اودوو"
+"هدایت شده است، نام دامنه را در اینجا وارد کنید."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -2917,11 +2942,14 @@ msgid ""
 "notification and review them one by one by clicking on the red envelope next"
 " to each message."
 msgstr ""
+"اگر می خواهید دوباره آنها را ارسال کنید، اکنون روی لغو کلیک کنید، سپس روی اعلان کلیک کنید"
+"و با کلیک بر روی پاکت قرمز رنگ کنار هر پیام،"
+"آنها را یکی یکی مرور کنید."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_message_view_form
 msgid "Ignore all failures"
-msgstr ""
+msgstr "همه شکست ها را نادیده بگیرید"
 
 #. module: mail
 #. openerp-web
@@ -2936,13 +2964,13 @@ msgstr "تصویر"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_document_file_kanban
 msgid "Image is a link"
-msgstr ""
+msgstr "تصویر یک لینک است"
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:0
 #, python-format
 msgid "Inactive Alias"
-msgstr ""
+msgstr "نام مستعار غیرفعال"
 
 #. module: mail
 #. openerp-web
@@ -2971,7 +2999,7 @@ msgstr "اطلاعات"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__initial_res_model_id
 msgid "Initial model"
-msgstr ""
+msgstr "مدل ابتدایی"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__parent_id
@@ -2989,7 +3017,7 @@ msgstr "ادغامها"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype__internal
 msgid "Internal Only"
-msgstr ""
+msgstr "فقط داخلی"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__recipient
