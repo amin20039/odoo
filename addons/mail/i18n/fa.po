@@ -3488,56 +3488,56 @@ msgstr "خرابی ایمیل"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_render_mixin
 msgid "Mail Render Mixin"
-msgstr ""
+msgstr "نامه Mixin را ارائه کنید"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model__is_mail_thread
 #: model_terms:ir.ui.view,arch_db:mail.model_search_view
 msgid "Mail Thread"
-msgstr ""
+msgstr "موضوع ایمیل"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_tracking_value
 msgid "Mail Tracking Value"
-msgstr ""
+msgstr "ارزش ردیابی نامه"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__notification
 msgid "Mail has been created to notify people of an existing mail.message"
-msgstr ""
+msgstr "ایمیل ایجاد شده است تا مردم را از یک mail.message موجود مطلع کند"
 
 #. module: mail
 #: model:ir.actions.server,name:mail.ir_cron_mail_scheduler_action_ir_actions_server
 #: model:ir.cron,cron_name:mail.ir_cron_mail_scheduler_action
 #: model:ir.cron,name:mail.ir_cron_mail_scheduler_action
 msgid "Mail: Email Queue Manager"
-msgstr ""
+msgstr "ایمیل: مدیر صف ایمیل"
 
 #. module: mail
 #: model:ir.actions.server,name:mail.ir_cron_mail_notify_channel_moderators_ir_actions_server
 #: model:ir.cron,cron_name:mail.ir_cron_mail_notify_channel_moderators
 #: model:ir.cron,name:mail.ir_cron_mail_notify_channel_moderators
 msgid "Mail: Notify channel moderators"
-msgstr ""
+msgstr "ایمیل: به مدیران کانال اطلاع دهید"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Mailbox unavailable - %s"
-msgstr ""
+msgstr "صندوق پستی در دسترس نیست - %s"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/discuss/discuss.js:0
 #, python-format
 msgid "Mailboxes"
-msgstr ""
+msgstr "صندوق های پستی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__mail_ids
 #: model:ir.model.fields,field_description:mail.field_mail_message__mail_ids
 msgid "Mails"
-msgstr ""
+msgstr "پست های الکترونیکی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__message_main_attachment_id
@@ -3556,7 +3556,7 @@ msgstr "پیوست اصلی"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "Manage Messages"
-msgstr ""
+msgstr "مدیریت پیام ها"
 
 #. module: mail
 #. openerp-web
@@ -3565,21 +3565,21 @@ msgstr ""
 #: code:addons/mail/static/src/xml/activity.xml:0
 #, python-format
 msgid "Mark Done"
-msgstr ""
+msgstr "انجام شده را علامت بزنید"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/widgets/discuss/discuss.xml:0
 #, python-format
 msgid "Mark all as read"
-msgstr ""
+msgstr "همه را به عنوان خوانده شده علامت بزن"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/widgets/discuss/discuss.xml:0
 #, python-format
 msgid "Mark all read"
-msgstr ""
+msgstr "علامت گذاری به عنوان خوانده شده"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
@@ -3593,7 +3593,7 @@ msgstr "علامت به عنوان انجام شده"
 #: code:addons/mail/static/src/components/thread_preview/thread_preview.xml:0
 #, python-format
 msgid "Mark as Read"
-msgstr ""
+msgstr "علامت به عنوان خوانده شده"
 
 #. module: mail
 #. openerp-web
@@ -3626,17 +3626,19 @@ msgid ""
 "Members of those groups will automatically added as followers. Note that "
 "they will be able to manage their subscription manually if necessary."
 msgstr ""
+"اعضای آن گروه ها به طور خودکار به عنوان دنبال کننده اضافه می شوند. توجه "
+"داشته باشید که در صورت لزوم می توانند اشتراک خود را به صورت دستی مدیریت کنند."
 
 #. module: mail
 #: model:ir.model,name:mail.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
-msgstr ""
+msgstr "ادغام شریک جادوگر"
 
 #. module: mail
 #: code:addons/mail/wizard/base_partner_merge.py:0
 #, python-format
 msgid "Merged with the following partners:"
-msgstr ""
+msgstr "با شرکای زیر ادغام شد:"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_message
@@ -3662,12 +3664,12 @@ msgstr "خطای تحویل پیام"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__mail_message_id
 msgid "Message ID"
-msgstr ""
+msgstr "پیام ID"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_notification
 msgid "Message Notifications"
-msgstr ""
+msgstr "اعلان های پیام"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__record_name
@@ -3681,7 +3683,7 @@ msgstr "نام رکورد پیام"
 #: code:addons/mail/static/src/components/moderation_reject_dialog/moderation_reject_dialog.js:0
 #, python-format
 msgid "Message Rejected"
-msgstr ""
+msgstr "پیام رد شد"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype__name
@@ -3692,43 +3694,43 @@ msgstr "نوع پیام"
 #: code:addons/mail/models/mail_message.py:0
 #, python-format
 msgid "Message are pending moderation"
-msgstr ""
+msgstr "پیام در انتظار تعدیل است"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_group/notification_group.xml:0
 #, python-format
 msgid "Message delivery failure image"
-msgstr ""
+msgstr "تصویر شکست تحویل پیام"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__description
 #: model:ir.model.fields,help:mail.field_mail_message__description
 msgid "Message description: either the subject, or the beginning of the body"
-msgstr ""
+msgstr "توضیحات پیام: یا موضوع، یا ابتدای بدن"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/discuss/discuss.js:0
 #, python-format
 msgid "Message posted on \"%s\""
-msgstr ""
+msgstr "پیام ارسال شده در \"%s\""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__email_to
 msgid "Message recipients (emails)"
-msgstr ""
+msgstr "گیرندگان پیام (ایمیل)"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__references
 msgid "Message references, such as identifiers of previous messages"
-msgstr ""
+msgstr "ارجاعات پیام، مانند شناسه پیام های قبلی"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Message should be a valid EmailMessage instance"
-msgstr ""
+msgstr "پیام باید یک نمونه EmailMessage معتبر باشد"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__name
