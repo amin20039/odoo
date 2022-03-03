@@ -3022,13 +3022,13 @@ msgstr "فقط داخلی"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__recipient
 msgid "Invalid email address"
-msgstr ""
+msgstr "آدرس ایمیل نامعتبر است"
 
 #. module: mail
 #: code:addons/mail/models/mail_blacklist.py:0
 #, python-format
 msgid "Invalid email address %r"
-msgstr ""
+msgstr "آدرس ایمیل نامعتبر است %r"
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:0
@@ -3037,26 +3037,28 @@ msgid ""
 "Invalid expression, it must be a literal python dictionary definition e.g. "
 "\"{'field': 'value'}\""
 msgstr ""
+"عبارت نامعتبر است، باید یک تعریف تحت اللفظی فرهنگ لغت پایتون باشد، به عنوان مثال."
+"\"{'field': 'value'}\""
 
 #. module: mail
 #: code:addons/mail/models/mail_thread_blacklist.py:0
 #: code:addons/mail/models/mail_thread_blacklist.py:0
 #, python-format
 msgid "Invalid primary email field on model %s"
-msgstr ""
+msgstr "فیلد ایمیل اصلی در مدل %s نامعتبر است"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:0
 #, python-format
 msgid "Invitation"
-msgstr "دعوت‌نامه"
+msgstr "دعوت نامه"
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:0
 #, python-format
 msgid "Invitation to follow %(document_model)s: %(document_name)s"
-msgstr ""
+msgstr "دعوت به دنبال کردن %(document_model)s: %(document_name)s"
 
 #. module: mail
 #. openerp-web
@@ -3101,17 +3103,17 @@ msgstr "فقط افراد را دعوت کن"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_followers__is_active
 msgid "Is Active"
-msgstr ""
+msgstr "فعال است"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_moderation_view_search
 msgid "Is Allowed"
-msgstr ""
+msgstr "مجاز است"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_moderation_view_search
 msgid "Is Banned"
-msgstr ""
+msgstr "ممنوع شده است"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__message_is_follower
@@ -3127,37 +3129,37 @@ msgstr "دنبال می کند"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__notification
 msgid "Is Notification"
-msgstr ""
+msgstr "اطلاع رسانی می کند"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_notification__is_read
 msgid "Is Read"
-msgstr ""
+msgstr "خوانده می شود"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__is_subscribed
 msgid "Is Subscribed"
-msgstr ""
+msgstr "مشترک است"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__is_chat
 msgid "Is a chat"
-msgstr ""
+msgstr "یک چت است"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__is_member
 msgid "Is a member"
-msgstr ""
+msgstr "یک عضو است"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users__is_moderator
 msgid "Is moderator"
-msgstr ""
+msgstr "ناظم است"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner__is_pinned
 msgid "Is pinned on the interface"
-msgstr ""
+msgstr "روی رابط پین شده است"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_kanban
@@ -3178,7 +3180,7 @@ msgstr "زبان"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner__fetched_message_id
 msgid "Last Fetched"
-msgstr ""
+msgstr "آخرین واکشی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_base_module_uninstall____last_update
@@ -3232,7 +3234,7 @@ msgstr "آخرین تغییر در"
 #: model:ir.model.fields,field_description:mail.field_mail_channel__channel_last_seen_partner_ids
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner__seen_message_id
 msgid "Last Seen"
-msgstr ""
+msgstr "آخرین بازدید"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__write_uid
@@ -3318,7 +3320,7 @@ msgstr "ترک"
 #: code:addons/mail/static/src/components/discuss_sidebar_item/discuss_sidebar_item.xml:0
 #, python-format
 msgid "Leave this channel"
-msgstr ""
+msgstr "این کانال را ترک کنید"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_thread_cc__email_cc
@@ -3330,12 +3332,14 @@ msgstr "فهرست CC از ایمیل های دریافتی."
 msgid ""
 "List of channels that will be added as listeners of the current document."
 msgstr ""
+"فهرست کانال هایی که به عنوان شنونده سند فعلی اضافه می شوند."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_wizard_invite__partner_ids
 msgid ""
 "List of partners that will be added as follower of the current document."
 msgstr ""
+"لیست شرکای که به عنوان دنبال کننده سند فعلی اضافه خواهند شد."
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
