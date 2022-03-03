@@ -2324,7 +2324,7 @@ msgstr "خطا، یک کانال نمی تواند دو بار یک شی را د
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_followers_mail_followers_res_partner_res_model_id_uniq
 msgid "Error, a partner cannot follow twice the same object."
-msgstr "خطا، یک شریک نمی‌تواند دو بار یک شی را دنبال کند."
+msgstr "خطا، یک شریک نمی تواند دو بار یک شی را دنبال کند."
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_followers_partner_xor_channel
@@ -3345,22 +3345,22 @@ msgstr ""
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "List users in the current channel"
-msgstr ""
+msgstr "لیست کاربران در کانال فعلی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_followers__channel_id
 msgid "Listener"
-msgstr ""
+msgstr "شنونده"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__channel_partner_ids
 msgid "Listeners"
-msgstr ""
+msgstr "شنوندگان"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_channel_partner
 msgid "Listeners of a Channel"
-msgstr "شنونده‌های یک کانال"
+msgstr "شنونده های یک کانال"
 
 #. module: mail
 #. openerp-web
@@ -3403,12 +3403,12 @@ msgstr "ورود به سیستم"
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 #: model_terms:ir.ui.view,arch_db:mail.view_server_action_form_template
 msgid "Log a note..."
-msgstr ""
+msgstr "ثبت یادداشت..."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "Log an Activity"
-msgstr ""
+msgstr "ثبت یک فعالیت"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__is_log
@@ -3420,14 +3420,14 @@ msgstr "ثبت یک یادداشت داخلی"
 #: code:addons/mail/static/src/components/composer_text_input/composer_text_input.js:0
 #, python-format
 msgid "Log an internal note..."
-msgstr ""
+msgstr "ثبت یادداشت داخلی..."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/chatter_topbar/chatter_topbar.xml:0
 #, python-format
 msgid "Log note"
-msgstr ""
+msgstr "یادداشت ورود"
 
 #. module: mail
 #. openerp-web
@@ -3439,13 +3439,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_notification__mail_id
 #, python-format
 msgid "Mail"
-msgstr ""
+msgstr "پست الکترونیکی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model__is_mail_activity
 #: model_terms:ir.ui.view,arch_db:mail.model_search_view
 msgid "Mail Activity"
-msgstr ""
+msgstr "فعالیت پستی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__mail_activity_type_id
@@ -3459,31 +3459,31 @@ msgstr "نوع فعالیت ایمیل"
 #: model:ir.model.fields,field_description:mail.field_ir_model__is_mail_blacklist
 #: model_terms:ir.ui.view,arch_db:mail.model_search_view
 msgid "Mail Blacklist"
-msgstr ""
+msgstr "بلک لیست پست الکترونیک"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread_blacklist
 msgid "Mail Blacklist mixin"
-msgstr ""
+msgstr "بلک لیست پست الکترونیک mixin"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/moderation_reject_dialog/moderation_reject_dialog.xml:0
 #, python-format
 msgid "Mail Body"
-msgstr ""
+msgstr "بدنه پست الکترونیک"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Mail Channel Form"
-msgstr ""
+msgstr "فرم کانال ایمیل"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/models/notification_group/notification_group.js:0
 #, python-format
 msgid "Mail Failures"
-msgstr ""
+msgstr "خرابی ایمیل"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_render_mixin
