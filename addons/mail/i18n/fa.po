@@ -3741,6 +3741,11 @@ msgid ""
 "subtypes allow to precisely tune the notifications the user want to receive "
 "on its wall."
 msgstr ""
+"نوع فرعی پیام نوع دقیق تری را به پیام می دهد، به خصوص برای"
+"اعلان های سیستم. به عنوان مثال، می تواند یک اعلان مربوط به یک رکورد جدید (New)"
+"یا یک تغییر مرحله در یک فرآیند (Stage change) باشد. زیرشاخه های پیام امکان"
+"(Stage change) باشد. زیرشاخه های پیام امکان تنظیم دقیق اعلان هایی را که کاربر می خواهد روی دیوار خود"
+"دریافت کند، می دهد."
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_message_subtype
@@ -3753,6 +3758,8 @@ msgid ""
 "Message subtypes followed, meaning subtypes that will be pushed onto the "
 "user's Wall."
 msgstr ""
+"زیرگروه های پیام دنبال می شوند، به این معنی که زیرگروه هایی روی"
+"دیوار کاربر قرار می گیرند."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__message_type
@@ -3769,13 +3776,13 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_mail__message_id
 #: model:ir.model.fields,help:mail.field_mail_message__message_id
 msgid "Message unique identifier"
-msgstr ""
+msgstr "شناسایی پیام منحصر به فرد"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__message_id
 #: model:ir.model.fields,field_description:mail.field_mail_message__message_id
 msgid "Message-Id"
-msgstr ""
+msgstr "شناسه پیام"
 
 #. module: mail
 #. openerp-web
@@ -3793,7 +3800,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.view_message_tree
 #, python-format
 msgid "Messages"
-msgstr "پیام‌ها"
+msgstr "پیام ها"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_message_search
@@ -3806,28 +3813,28 @@ msgstr "جستجوی پیام ها"
 #: code:addons/mail/static/src/components/discuss_sidebar_item/discuss_sidebar_item.xml:0
 #, python-format
 msgid "Messages are sent by email"
-msgstr ""
+msgstr "پیام ها توسط ایمیل فرستاده شدند"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/tours/mail.js:0
 #, python-format
 msgid "Messages can be <b>starred</b> to remind you to check back later."
-msgstr ""
+msgstr "پیام ها را می توان <b>ستاره گذاری کرد</b> تا به شما یادآوری شود که بعداً دوباره بررسی کنید."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/message_list/message_list.xml:0
 #, python-format
 msgid "Messages marked as read will appear in the history."
-msgstr ""
+msgstr "پیام هایی که به عنوان خوانده شده علامت گذاری شده اند در تاریخچه ظاهر می شوند."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/message_list/message_list.xml:0
 #, python-format
 msgid "Messages pending moderation appear here."
-msgstr ""
+msgstr "پیام های در انتظار تعدیل در اینجا ظاهر می شوند."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__internal
@@ -3835,6 +3842,8 @@ msgid ""
 "Messages with internal subtypes will be visible only by employees, aka "
 "members of base_user group"
 msgstr ""
+"پیام های دارای زیرمجموعه های داخلی فقط توسط کارمندان، که "
+"اعضای گروه base_user هستند، قابل مشاهده خواهند بود"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__res_model_id
@@ -3848,18 +3857,19 @@ msgstr "مدل"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__res_model_change
 msgid "Model has change"
-msgstr ""
+msgstr "مدل تغییر کرده است"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_wizard_invite__res_model
 msgid "Model of the followed resource"
-msgstr ""
+msgstr "مدل منبع دنبال شده"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__res_model
 msgid ""
 "Model the subtype applies to. If False, this subtype applies to all models."
 msgstr ""
+"مدلی که نوع فرعی برای آن اعمال می شود. اگر غلط باشد، این نوع فرعی برای همه مدل ها اعمال می شود."
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_model
@@ -3869,39 +3879,39 @@ msgstr "مدل ها"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_notify_moderation
 msgid "Moderate Messages"
-msgstr ""
+msgstr "تعدیل پیام ها"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__moderation
 msgid "Moderate this channel"
-msgstr ""
+msgstr "این کانال را تعدیل کنید"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__moderator_id
 #: model:ir.model.fields,field_description:mail.field_mail_message__moderator_id
 msgid "Moderated By"
-msgstr ""
+msgstr "تعدیل شده توسط"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__moderation_ids
 msgid "Moderated Emails"
-msgstr ""
+msgstr "ایمیل های تعدیل شده"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users__moderation_channel_ids
 msgid "Moderated channels"
-msgstr ""
+msgstr "کانال های تعدیل شده"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "Moderated channels must have moderators."
-msgstr ""
+msgstr "کانال های تعدیل شده باید ناظر داشته باشند."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__moderation_count
 msgid "Moderated emails count"
-msgstr ""
+msgstr "حساب ایمیل های نظارت شده "
 
 #. module: mail
 #. openerp-web
@@ -3915,23 +3925,23 @@ msgstr "نظارت"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Moderation List"
-msgstr ""
+msgstr "فهرست نظارت"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_moderation_view_tree
 msgid "Moderation Lists"
-msgstr ""
+msgstr "فهرست های نظارت"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__moderation_status
 #: model:ir.model.fields,field_description:mail.field_mail_message__moderation_status
 msgid "Moderation Status"
-msgstr ""
+msgstr "وضعیت های نظارت"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users__moderation_counter
 msgid "Moderation count"
-msgstr ""
+msgstr "حساب نظارت"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__is_moderator
@@ -3947,13 +3957,13 @@ msgstr "ناظرین"
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "Moderators must have an email address."
-msgstr ""
+msgstr "ناظرین موظف هستند که ایمیل داشته باشند."
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "Moderators should be members of the channel they moderate."
-msgstr ""
+msgstr "ناظرین باید عضو کانالی باشند که نظارت می کنند."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_form
@@ -3961,6 +3971,8 @@ msgid ""
 "Modifying the model can have an impact on existing activities using this "
 "activity type, be careful."
 msgstr ""
+"اصلاح مدل می تواند بر فعالیت های موجود با استفاده از این"
+"نوع فعالیت تأثیر بگذارد، مراقب باشید."
 
 #. module: mail
 #: model:ir.model,name:mail.model_base_module_uninstall
@@ -3970,7 +3982,7 @@ msgstr "لغو نصب ماجول"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__activity_date_deadline_range_type__months
 msgid "Months"
-msgstr "ماه‌ها"
+msgstr "ماه ها"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__name
@@ -3992,7 +4004,7 @@ msgstr "نام سند مربوطه را دریافت کنید."
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_followers__name
 msgid "Name of the related partner (if exist) or the related channel"
-msgstr ""
+msgstr "نام شریک مرتبط (در صورت وجود) یا کانال مرتبط"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__report_name
@@ -4000,6 +4012,8 @@ msgid ""
 "Name to use for the generated report file (may contain placeholders)\n"
 "The extension can be omitted and will then come from the report type."
 msgstr ""
+"نام مورد استفاده برای فایل گزارش تولید شده (ممکن است حاوی متغیرهایی باشد)\n"
+"پسوند را می توان حذف کرد و سپس از نوع گزارش می آید."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__needaction
@@ -4014,7 +4028,7 @@ msgstr "نیازمند اقدام"
 #: model:ir.model.fields,field_description:mail.field_mail_mail__need_moderation
 #: model:ir.model.fields,field_description:mail.field_mail_message__need_moderation
 msgid "Need moderation"
-msgstr ""
+msgstr "نیازمند نظارت"
 
 #. module: mail
 #. openerp-web
@@ -4035,32 +4049,32 @@ msgstr "پیام جدید"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__new_value_char
 msgid "New Value Char"
-msgstr ""
+msgstr "کاراکتر ارزش جدید"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__new_value_datetime
 msgid "New Value Datetime"
-msgstr ""
+msgstr "ارزش جدید زمان قرار"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__new_value_float
 msgid "New Value Float"
-msgstr ""
+msgstr "ارزش جدید شناور"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__new_value_integer
 msgid "New Value Integer"
-msgstr ""
+msgstr "عدد صحیح مقدار جدید"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__new_value_monetary
 msgid "New Value Monetary"
-msgstr ""
+msgstr "ارزش پولی جدید"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__new_value_text
 msgid "New Value Text"
-msgstr ""
+msgstr "متن ارزش جدید"
 
 #. module: mail
 #. openerp-web
@@ -4083,7 +4097,7 @@ msgstr "پیام ها جدید"
 #: code:addons/mail/static/src/components/message_list/message_list.xml:0
 #, python-format
 msgid "New messages appear here."
-msgstr ""
+msgstr "پیام های جدید در اینجا ظاهر می شود."
 
 #. module: mail
 #. openerp-web
@@ -4095,7 +4109,7 @@ msgstr "افراد جدید"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
 msgid "New values"
-msgstr ""
+msgstr "ارزش های جدید"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_channel__moderation_guidelines
@@ -4103,6 +4117,8 @@ msgid ""
 "Newcomers on this moderated channel will automatically receive the "
 "guidelines."
 msgstr ""
+"تازه واردان در این کانال نظارت شده به طور خودکار"
+"دستورالعمل ها را دریافت خواهند کرد."
 
 #. module: mail
 #. openerp-web
@@ -4117,7 +4133,7 @@ msgstr "بعدی"
 #: code:addons/mail/static/src/components/attachment_viewer/attachment_viewer.xml:0
 #, python-format
 msgid "Next (Right-Arrow)"
-msgstr ""
+msgstr "بعدی (پیکان راست)"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_tree
@@ -4129,7 +4145,7 @@ msgstr "فعایتهای بعدی"
 #: code:addons/mail/static/src/js/activity.js:0
 #, python-format
 msgid "Next Activity"
-msgstr ""
+msgstr "فعالیت بعدی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_mixin__activity_date_deadline
@@ -4155,7 +4171,7 @@ msgstr "نوع فعالیت بعدی"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__has_recommended_activities
 msgid "Next activities available"
-msgstr ""
+msgstr "فعالیت های بعدی موجود است"
 
 #. module: mail
 #: code:addons/mail/models/mail_notification.py:0
@@ -4168,66 +4184,66 @@ msgstr "بدون خطا"
 #: code:addons/mail/static/src/components/thread_icon/thread_icon.xml:0
 #, python-format
 msgid "No IM status available"
-msgstr ""
+msgstr "وضعیت پیام فوری در دسترس نیست"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__no_record
 msgid "No Record"
-msgstr ""
+msgstr "بدون رکورد"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:0
 #, python-format
 msgid "No activities planned."
-msgstr ""
+msgstr "هیچ فعالیتی برنامه ریزی نشده است."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/discuss/discuss.xml:0
 #, python-format
 msgid "No conversation selected."
-msgstr ""
+msgstr "هیچ مکالمه ای انتخاب نشده است."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_list/notification_list.xml:0
 #, python-format
 msgid "No conversation yet..."
-msgstr ""
+msgstr "هنوز مکالمه ای نشده..."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/message_list/message_list.xml:0
 #, python-format
 msgid "No history messages"
-msgstr ""
+msgstr "هیچ پیام تاریخی وجود ندارد"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/tools/debug_manager.js:0
 #, python-format
 msgid "No message available"
-msgstr ""
+msgstr "هیچ پیام فعال نیست"
 
 #. module: mail
 #: code:addons/mail/wizard/mail_resend_message.py:0
 #, python-format
 msgid "No message_id found in context"
-msgstr ""
+msgstr "هیچ آیدی پیامی در زمینه یافت نشد"
 
 #. module: mail
 #: code:addons/mail/wizard/mail_compose_message.py:0
 #, python-format
 msgid "No recipient found."
-msgstr ""
+msgstr "هیچ گیرنده ای پیدا نشد"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/message_list/message_list.xml:0
 #, python-format
 msgid "No starred messages"
-msgstr ""
+msgstr "هیچ پیام ستاره داری وجود ندارد"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__no_auto_thread
@@ -4246,7 +4262,7 @@ msgstr "هیچکدام"
 #: model:ir.model.fields,field_description:mail.field_res_partner__email_normalized
 #: model:ir.model.fields,field_description:mail.field_res_users__email_normalized
 msgid "Normalized Email"
-msgstr ""
+msgstr "ایمیل عادی شده"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__activity_note
@@ -4266,19 +4282,19 @@ msgstr "اعلان"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_notification__notification_type
 msgid "Notification Type"
-msgstr ""
+msgstr "نوع اعلان"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__moderation_notify_msg
 msgid "Notification message"
-msgstr ""
+msgstr "پیام اعلان"
 
 #. module: mail
 #: model:ir.actions.server,name:mail.ir_cron_delete_notification_ir_actions_server
 #: model:ir.cron,cron_name:mail.ir_cron_delete_notification
 #: model:ir.cron,name:mail.ir_cron_delete_notification
 msgid "Notification: Delete Notifications older than 6 Month"
-msgstr ""
+msgstr "اعلان: اعلان های قدیمی تر از 6 ماه را حذف کنید"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_notification_action
@@ -4288,7 +4304,7 @@ msgstr ""
 #: model:ir.ui.menu,name:mail.mail_notification_menu
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_view_tree
 msgid "Notifications"
-msgstr "اعلان‌ها"
+msgstr "اعلان ها"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__notify
@@ -4317,6 +4333,8 @@ msgid ""
 "Number of days/week/month before executing the action. It allows to plan the"
 " action deadline."
 msgstr ""
+"تعداد روز/هفته/ماه قبل از اجرای عمل. این اجازه می دهد تا "
+"مهلت اقدام را برنامه ریزی کنید."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__message_has_error_counter
@@ -4360,7 +4378,7 @@ msgstr "تعداد پیامهای با خطای تحویل"
 #: model:ir.model.fields,help:mail.field_res_partner__message_unread_counter
 #: model:ir.model.fields,help:mail.field_res_users__message_unread_counter
 msgid "Number of unread messages"
-msgstr "تعداد پیام‌های خوانده نشده"
+msgstr "تعداد پیام های خوانده نشده"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_borders
@@ -4368,7 +4386,7 @@ msgstr "تعداد پیام‌های خوانده نشده"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "اودوو"
 
 #. module: mail
 #. openerp-web
@@ -4378,6 +4396,8 @@ msgid ""
 "Odoo Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
+"اعلان‌های Odoo Push مسدود شده اند. به تنظیمات مرورگر خود بروید تا آنها را"
+"مجاز کنید."
 
 #. module: mail
 #. openerp-web
@@ -4387,6 +4407,8 @@ msgid ""
 "Odoo will not have the permission to send native notifications on this "
 "device."
 msgstr ""
+"Odoo مجوز ارسال اعلان های بومی را در این"
+"دستگاه نخواهد داشت."
 
 #. module: mail
 #. openerp-web
@@ -4407,37 +4429,37 @@ msgstr "باشه"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__old_value_char
 msgid "Old Value Char"
-msgstr ""
+msgstr "کاراکتر ارزش قدیمی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__old_value_datetime
 msgid "Old Value DateTime"
-msgstr ""
+msgstr "ارزش قدیمی زمان قرار"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__old_value_float
 msgid "Old Value Float"
-msgstr ""
+msgstr "شناور ارزش قدیمی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__old_value_integer
 msgid "Old Value Integer"
-msgstr ""
+msgstr "عدد صحیح مقدار قدیمی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__old_value_monetary
 msgid "Old Value Monetary"
-msgstr ""
+msgstr "ارزش پولی قدیمی"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__old_value_text
 msgid "Old Value Text"
-msgstr ""
+msgstr "متن ارزش قدیمی"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
 msgid "Old values"
-msgstr ""
+msgstr "ارزش های قدیمی"
 
 #. module: mail
 #. openerp-web
@@ -4447,6 +4469,8 @@ msgid ""
 "Once a message has been starred, you can come back and review it at any time"
 " here."
 msgstr ""
+"وقتی پیامی ستاره دار شد، می توانید هر زمان که خواستید برگردید و آن را در"
+"اینجا مرور کنید."
 
 #. module: mail
 #. openerp-web
@@ -4461,13 +4485,13 @@ msgstr "آنلاین"
 #: code:addons/mail/models/mail_message.py:0
 #, python-format
 msgid "Only administrators are allowed to export mail message"
-msgstr ""
+msgstr "فقط مدیران مجاز به صادرات پیام نامه هستند"
 
 #. module: mail
 #: code:addons/mail/models/mail_message.py:0
 #, python-format
 msgid "Only administrators are allowed to use grouped read on message model"
-msgstr ""
+msgstr "فقط مدیران مجاز به استفاده از مدل خواندن گروهی در پیام هستند"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -4475,19 +4499,20 @@ msgstr ""
 msgid ""
 "Only an administrator or a moderator can send guidelines to channel members!"
 msgstr ""
+"فقط یک مدیر یا یک ناظر می تواند دستورالعمل ها را برای اعضای کانال ارسال کند!"
 
 #. module: mail
 #: code:addons/mail/models/ir_model.py:0
 #, python-format
 msgid "Only custom models can be modified."
-msgstr ""
+msgstr "فقط مدل های سفارشی قابل تغییر هستند."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/dialog/dialog.xml:0
 #, python-format
 msgid "Only dialog linked to a record is currently supported!"
-msgstr ""
+msgstr "در حال حاضر فقط گفتگوی مرتبط با یک رکورد پشتیبانی می شود!"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
