@@ -1123,6 +1123,7 @@ msgstr "اگر قیمت فروشنده تعیین نشود برای تمام گ�
 msgid ""
 "If unchecked, it will allow you to hide the pricelist without removing it."
 msgstr ""
+"اگر علامت را بردارید، به شما امکان می دهد لیست قیمت را بدون حذف آن پنهان کنید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__active
@@ -1130,6 +1131,7 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the product without removing it."
 msgstr ""
+"اگر علامت را بردارید، به شما امکان می دهد لیست محصول را بدون حذف آن پنهان کنید."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_1920
@@ -1219,7 +1221,7 @@ msgstr "مرجع داخلی"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__barcode
 msgid "International Article Number used for product identification."
-msgstr ""
+msgstr "شماره مقاله بین المللی مورد استفاده برای شناسایی محصول."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
