@@ -1190,6 +1190,10 @@ msgid ""
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
+"در قیمت استاندارد و AVCO: ارزش محصول (به طور خودکار در AVCO محاسبه می شود).\n"
+"        در FIFO: ارزش آخرین واحدی که سهام را ترک کرده است (به طور خودکار محاسبه می شود).\n"
+"        هنگامی که هزینه خرید مشخص نیست (مثلاً تعدیل موجودی) برای ارزش گذاری محصول استفاده می شود.\n"
+"        برای محاسبه حاشیه در سفارشات فروش استفاده می شود."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_attribute_value_view_search
