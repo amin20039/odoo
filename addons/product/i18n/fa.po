@@ -340,7 +340,7 @@ msgstr "بایگانی شده"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__sequence
 msgid "Assigns the priority to the list of product vendor."
-msgstr ""
+msgstr "اولویت را به لیست فروشنده محصول اختصاص می دهد."
 
 #. module: product
 #. openerp-web
@@ -350,6 +350,8 @@ msgid ""
 "At most %d quantities can be displayed simultaneously. Remove a selected "
 "quantity to add others."
 msgstr ""
+"حداکثر %d کمیت را می توان به طور همزمان نمایش داد. حذف یک انتخاب شده "
+"مقدار برای افزودن دیگران."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_attachment_count
@@ -419,6 +421,8 @@ msgid ""
 "Barcode used for packaging identification. Scan this packaging barcode from "
 "a transfer in the Barcode app to move all the contained units"
 msgstr ""
+"بارکد مورد استفاده برای شناسایی بسته بندی اسکن این بارکد بسته بندی از " 
+"انتقال در برنامه بارکد برای جابجایی تمام واحدهای موجود"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__base
