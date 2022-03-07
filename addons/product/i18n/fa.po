@@ -463,12 +463,12 @@ msgstr "کابینت با در"
 #: model:ir.model.fields,field_description:product.field_product_product__can_image_1024_be_zoomed
 #: model:ir.model.fields,field_description:product.field_product_template__can_image_1024_be_zoomed
 msgid "Can Image 1024 be zoomed"
-msgstr "تصویر 1024 می‌تواند زوم شود"
+msgstr "تصویر 1024 می تواند زوم شود"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__can_image_variant_1024_be_zoomed
 msgid "Can Variant Image 1024 be zoomed"
-msgstr "تصویر گونه 1024 می‌تواند زوم شود"
+msgstr "تصویر گونه 1024 می تواند زوم شود"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__purchase_ok
@@ -487,7 +487,7 @@ msgstr "میتواند فروخته شود"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
 msgid "Category name"
-msgstr "نام طبقه‌بندی"
+msgstr "نام طبقه بندی"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
@@ -498,7 +498,7 @@ msgstr "طبقه بندی: %s"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__child_id
 msgid "Child Categories"
-msgstr "دسته‌بندی‌های فرزند"
+msgstr "دسته بندی های فرزند"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
@@ -1353,6 +1353,9 @@ msgid ""
 "receipt of the products in your warehouse. Used by the scheduler for "
 "automatic computation of the purchase order planning."
 msgstr ""
+"فاصله زمانی بین تایید سفارش خرید و دریافت"
+"محصولات در انبار شما بر حسب روز. توسط زمانبندی برای"
+"محاسبه خودکار برنامه ریزی سفارش خرید استفاده می شود."
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_1
@@ -1383,6 +1386,8 @@ msgid ""
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
 msgstr ""
+"این مقدار مشخصه را با مقادیر دیگر محصول "
+"یا برخی از مقادیر ویژگی محصولات اختیاری و جانبی سازگاری نداشته باشد."
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
@@ -1554,6 +1559,7 @@ msgid ""
 "On the product %s you cannot associate the value %s with the attribute %s "
 "because they do not match."
 msgstr ""
+"در محصول %s نمی توانید مقدار %s را با ویژگی %s مرتبط کنید زیرا مطابقت ندارند."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
