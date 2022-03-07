@@ -190,6 +190,9 @@ msgid ""
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
 msgstr ""
+"توضیح محصولی که می خواهید به مشتریان خود اطلاع دهید."
+"این توضیحات برای هر سفارش فروش، سفارش تحویل و. "
+" فاکتور مشتری/یادداشت اعتبار کپی می شود"
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -197,6 +200,8 @@ msgid ""
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "                This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
+"قیمت مجموعه ای از قیمت های فروش یا قوانین برای محاسبه قیمت خطوط سفارش فروش بر اساس محصولات، دسته بندی محصولات، تاریخ ها و مقادیر سفارش است. \ N"
+"                این ابزار عالی برای رسیدگی به چندین قیمت، تخفیف فصلی و غیره است."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__type
