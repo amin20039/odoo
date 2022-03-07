@@ -173,6 +173,9 @@ msgid ""
 "                        will delete and recreate existing variants and lead\n"
 "                        to the loss of their possible customizations."
 msgstr ""
+"<strong>هشدار</strong>: افزودن یا حذف ویژگی‌ها\n"
+"                        انواع موجود و سرنخ را حذف و دوباره ایجاد می کند\n"
+"                        به از دست دادن سفارشی سازی های احتمالی آنها."
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_product_barcode_uniq
