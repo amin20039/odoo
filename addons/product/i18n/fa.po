@@ -432,6 +432,10 @@ msgid ""
 "Cost Price : The base price will be the cost price.\n"
 "Other Pricelist : Computation of the base price based on another Pricelist."
 msgstr ""
+"قیمت پایه برای محاسبه.\n"
+"قیمت فروش: قیمت پایه، قیمت فروش خواهد بود.\n"
+"قیمت تمام شده: قیمت پایه، قیمت تمام شده خواهد بود.\n"
+"سایر قیمت‌ها: محاسبه قیمت پایه بر اساس فهرست قیمت دیگری."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__base
@@ -517,7 +521,7 @@ msgstr "شاخص رنگ"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__combination_indices
 msgid "Combination Indices"
-msgstr ""
+msgstr "شاخص های ترکیبی"
 
 #. module: product
 #: model:ir.model,name:product.model_res_company
@@ -550,7 +554,7 @@ msgstr "محاسبه قیمت"
 #: model:product.product,name:product.product_product_11b
 #: model:product.template,name:product.product_product_11_product_template
 msgid "Conference Chair (CONFIG)"
-msgstr ""
+msgstr "صندلی کنفرانس (CONFIG)"
 
 #. module: product
 #: model:product.product,description_sale:product.consu_delivery_02
