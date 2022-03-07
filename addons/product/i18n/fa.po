@@ -560,7 +560,7 @@ msgstr "صندلی کنفرانس (CONFIG)"
 #: model:product.product,description_sale:product.consu_delivery_02
 #: model:product.template,description_sale:product.consu_delivery_02_product_template
 msgid "Conference room table"
-msgstr ""
+msgstr "میز اتاق کنفرانس"
 
 #. module: product
 #: model:ir.model,name:product.model_res_config_settings
@@ -590,24 +590,24 @@ msgstr "مخاطب"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging__qty
 msgid "Contained Quantity"
-msgstr ""
+msgstr "مقدار موجود"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
 msgid "Contained quantity"
-msgstr ""
+msgstr "مقدار موجود"
 
 #. module: product
 #: model:product.product,name:product.product_product_13
 #: model:product.template,name:product.product_product_13_product_template
 msgid "Corner Desk Left Sit"
-msgstr ""
+msgstr "میز گوشه سمت چپ نشستن"
 
 #. module: product
 #: model:product.product,name:product.product_product_5
 #: model:product.template,name:product.product_product_5_product_template
 msgid "Corner Desk Right Sit"
-msgstr ""
+msgstr "میز گوشه سمت راست نشستن"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__standard_price
@@ -712,7 +712,7 @@ msgstr "مقدار سفارشی"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__partner_ref
 msgid "Customer Ref"
-msgstr ""
+msgstr "مرجع مشتری"
 
 #. module: product
 #: model:product.product,name:product.product_product_4
@@ -721,7 +721,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_4d
 #: model:product.template,name:product.product_product_4_product_template
 msgid "Customizable Desk (CONFIG)"
-msgstr ""
+msgstr "میز قابل تنظیم (CONFIG)"
 
 #. module: product
 #: model:product.product,uom_name:product.expense_hotel
@@ -746,7 +746,7 @@ msgstr "پیش‌فرض %(currency)s لیست قیمت"
 #: model:ir.model.fields,help:product.field_product_product__uom_id
 #: model:ir.model.fields,help:product.field_product_template__uom_id
 msgid "Default unit of measure used for all stock operations."
-msgstr ""
+msgstr "واحد اندازه گیری پیش فرض برای همه عملیات سهام استفاده می شود."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__uom_po_id
@@ -755,6 +755,8 @@ msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
 msgstr ""
+"واحد اندازه گیری پیش فرض مورد استفاده برای سفارشات خرید. باید در همین حد باشد"
+"دسته به عنوان واحد اندازه گیری پیش فرض."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__seller_ids
