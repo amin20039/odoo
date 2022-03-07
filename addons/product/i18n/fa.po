@@ -976,6 +976,8 @@ msgid ""
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
+"برای اعمال قانون، مقدار خرید/فروش باید بیشتر یا مساوی با حداقل مقدار مشخص شده در این قسمت باشد. \n"
+"بیان شده در واحد اندازه گیری پیش فرض محصول."
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__compute_price__formula
@@ -992,7 +994,7 @@ msgstr "میز چهار نفره"
 #: model:product.product,description_sale:product.consu_delivery_03
 #: model:product.template,description_sale:product.consu_delivery_03_product_template
 msgid "Four person modern office workstation"
-msgstr ""
+msgstr "ایستگاه کاری اداری مدرن چهار نفره"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
@@ -1014,13 +1016,13 @@ msgstr "ایجاد لیست قیمت"
 #: model:ir.model.fields,help:product.field_product_product__packaging_ids
 #: model:ir.model.fields,help:product.field_product_template__packaging_ids
 msgid "Gives the different ways to package the same product."
-msgstr ""
+msgstr "راه های مختلفی را برای بسته بندی یک محصول ارائه می دهد."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__sequence
 #: model:ir.model.fields,help:product.field_product_template__sequence
 msgid "Gives the sequence order when displaying a product list"
-msgstr ""
+msgstr "هنگام نمایش لیست محصول، ترتیب ترتیب را می دهد"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_view_search
@@ -1041,12 +1043,14 @@ msgid ""
 "Here you can set a specific HTML color index (e.g. #ff0000) to display the "
 "color if the attribute type is 'Color'."
 msgstr ""
+"در اینجا می توانید یک شاخص رنگ HTML خاص (به عنوان مثال #ff0000) برای نمایش "
+" تنظیم کنید.رنگ اگر نوع ویژگی "رنگ" باشد."
 
 #. module: product
 #: model:product.product,name:product.expense_hotel
 #: model:product.template,name:product.expense_hotel_product_template
 msgid "Hotel Accommodation"
-msgstr ""
+msgstr "اقامت در هتل"
 
 #. module: product
 #: model:product.product,uom_name:product.product_product_1
@@ -1054,7 +1058,7 @@ msgstr ""
 #: model:product.template,uom_name:product.product_product_1_product_template
 #: model:product.template,uom_name:product.product_product_2_product_template
 msgid "Hours"
-msgstr "ساعت‌ها"
+msgstr "ساعت ها"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_decimal_precision__id
