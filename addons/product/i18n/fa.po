@@ -219,7 +219,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_25
 #: model:product.template,name:product.product_product_25_product_template
 msgid "Acoustic Bloc Screens"
-msgstr ""
+msgstr "صفحه نمایش بلوک آکوستیک"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_needaction
@@ -243,7 +243,7 @@ msgstr "فعال"
 #: model:ir.model.fields,field_description:product.field_product_product__activity_ids
 #: model:ir.model.fields,field_description:product.field_product_template__activity_ids
 msgid "Activities"
-msgstr "فعالیت‌ها"
+msgstr "فعالیت ها"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__activity_exception_decoration
@@ -292,7 +292,7 @@ msgstr "همه محصولات"
 #: model:ir.model.fields,help:product.field_product_attribute_value__is_custom
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__is_custom
 msgid "Allow users to input custom values for this attribute value"
-msgstr ""
+msgstr "به کاربران اجازه دهید مقادیر سفارشی را برای این مقدار مشخصه وارد کنند"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_config_settings__group_sale_pricelist
@@ -300,6 +300,8 @@ msgid ""
 "Allows to manage different prices based on rules per category of customers.\n"
 "                Example: 10% for retailers, promotion of 5 EUR on this product, etc."
 msgstr ""
+"به مدیریت قیمت های مختلف بر اساس قوانین در هر دسته از مشتریان اجازه می دهد.\n"
+"                به عنوان مثال: 10٪ برای خرده فروشان، تبلیغات 5 یورویی برای این محصول و غیره."
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_2
