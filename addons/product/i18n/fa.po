@@ -83,6 +83,10 @@ msgid ""
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: the variants creation mode cannot be changed once the attribute is used on at least one product."
 msgstr ""
+"- فورا: همه انواع ممکن به محض افزودن ویژگی و مقادیر آن به محصول ایجاد می شوند.\n"
+"         - به صورت پویا: هر گونه تنها زمانی ایجاد می شود که ویژگی ها و مقادیر مربوط به آن به یک سفارش فروش اضافه شود.\n"
+"         - هیچ وقت: انواع هرگز برای ویژگی ایجاد نمی شوند.\n"
+"         توجه: پس از استفاده از ویژگی حداقل در یک محصول، حالت ایجاد انواع قابل تغییر نیست."
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
