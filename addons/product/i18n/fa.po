@@ -2237,7 +2237,7 @@ msgstr "حداکثر میزان حاشیه را بر قیمت پایه مشخص 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_min_margin
 msgid "Specify the minimum amount of margin over the base price."
-msgstr ""
+msgstr "حداقل میزان حاشیه را نسبت به قیمت پایه مشخص کنید."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__date_start
@@ -2256,6 +2256,8 @@ msgid ""
 "Starting datetime for the pricelist item validation\n"
 "The displayed value depends on the timezone set in your preferences."
 msgstr ""
+"تاریخ شروع برای اعتبارسنجی آیتم لیست قیمت\n"
+"مقدار نمایش داده شده به منطقه زمانی تنظیم شده در تنظیمات برگزیده شما بستگی دارد."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__activity_state
@@ -2293,7 +2295,7 @@ msgstr "لیست قیمت تامین کننده"
 #: model:ir.model.fields,help:product.field_product_product__valid_product_template_attribute_line_ids
 #: model:ir.model.fields,help:product.field_product_template__valid_product_template_attribute_line_ids
 msgid "Technical compute"
-msgstr ""
+msgstr "محاسبات فنی"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__pricelist_id
@@ -2306,7 +2308,7 @@ msgstr ""
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "The attribute %s must have at least one value for the product %s."
-msgstr ""
+msgstr "ویژگی %s باید حداقل یک مقدار برای محصول %s داشته باشد."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__attribute_id
@@ -2314,6 +2316,8 @@ msgid ""
 "The attribute cannot be changed once the value is used on at least one "
 "product."
 msgstr ""
+"هنگامی که مقدار حداقل در یک محصول استفاده شود، ویژگی را "
+"نمی توان تغییر داد.
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -2321,6 +2325,8 @@ msgid ""
 "The computed price is expressed in the default Unit of Measure of the "
 "product."
 msgstr ""
+"قیمت محاسبه شده در واحد اندازه گیری پیش فرض"
+"محصول بیان می شود."
 
 #. module: product
 #: code:addons/product/models/product_template.py:0
@@ -2329,13 +2335,15 @@ msgid ""
 "The default Unit of Measure and the purchase Unit of Measure must be in the "
 "same category."
 msgstr ""
+"واحد اندازه گیری پیش فرض و واحد اندازه گیری خرید باید "
+"در یک دسته باشند."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__display_type
 #: model:ir.model.fields,help:product.field_product_attribute_value__display_type
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__display_type
 msgid "The display type used in the Product Configurator."
-msgstr ""
+msgstr "نوع نمایش در پیکربندی محصول "
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__sequence
@@ -2346,7 +2354,7 @@ msgstr "اولین در دنباله پیشفرض است."
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid "The minimum margin should be lower than the maximum margin."
-msgstr ""
+msgstr "حداقل حاشیه باید کمتر از حداکثر حاشیه باشد."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__product_count
@@ -2354,6 +2362,8 @@ msgid ""
 "The number of products under this category (Does not consider the children "
 "categories)"
 msgstr ""
+"تعداد محصولات زیر این دسته (دسته های کودکان را "
+"در نظر نمی گیرد)"
 
 #. module: product
 #: code:addons/product/models/product_template.py:0
