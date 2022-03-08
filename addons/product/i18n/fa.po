@@ -2303,6 +2303,7 @@ msgstr "محاسبات فنی"
 msgid ""
 "Technical field. Used for searching on pricelists, not stored in database."
 msgstr ""
+"فیلد فنی. برای جستجو در لیست قیمت استفاده می شود، در پایگاه داده ذخیره نمی شود."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2374,6 +2375,10 @@ msgid ""
 "sales order. To do so, open the form view of attributes and change the mode "
 "of *Create Variants*."
 msgstr ""
+"گونه های محصول برای تولید بسیار زیاد است. شما یا نباید"
+"گونه های مختلفی را برای هر ترکیب ایجاد کنید یا آنها را بر حسب تقاضا از "
+"سفارش فروش تولید کنید. برای انجام این کار، نمای فرم ویژگی ها را باز کنید و "
+"حالت *ایجاد گونه های محصول* را تغییر دهید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__price
@@ -2384,7 +2389,7 @@ msgstr "قیمت خرید محصول"
 #: code:addons/product/models/product_template.py:0
 #, python-format
 msgid "The product template is archived so no combination is possible."
-msgstr ""
+msgstr "قالب محصول بایگانی شده است بنابراین هیچ ترکیبی امکان پذیر نیست."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__min_qty
@@ -2393,6 +2398,9 @@ msgid ""
 "expressed in the vendor Product Unit of Measure if not any, in the default "
 "unit of measure of the product otherwise."
 msgstr ""
+"مقداری که باید از این فروشنده خرید کنید تا از قیمت بهره مند شوید،"
+"در صورت عدم وجود، در واحد اندازه گیری محصول فروشنده،"
+"در غیر این صورت در واحد اندازه گیری پیش فرض محصول بیان شده است."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__lst_price
@@ -2400,12 +2408,14 @@ msgid ""
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
+"قیمت فروش از روی قالب محصول مدیریت می شود."
+"برای تنظیم قیمت ویژگی های اضافی، روی دکمه 'پیکربندی گونه های محصول' کلیک کنید."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "The value %s is not defined for the attribute %s on the product %s."
-msgstr ""
+msgstr "مقدار %s برای ویژگی %s در محصول %s تعریف نشده است."
 
 #. module: product
 #: code:addons/product/models/product_template.py:0
