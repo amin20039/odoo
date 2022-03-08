@@ -2427,13 +2427,13 @@ msgstr "هیچ ترکیبی قابل انجام نیست"
 #: code:addons/product/models/product_template.py:0
 #, python-format
 msgid "There are no remaining closest combination."
-msgstr ""
+msgstr "نزدیکترین ترکیب باقیمانده وجود ندارد."
 
 #. module: product
 #: code:addons/product/models/product_template.py:0
 #, python-format
 msgid "There are no remaining possible combination."
-msgstr ""
+msgstr "هیچ ترکیب ممکنی باقی نمانده است."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_uom
@@ -2443,12 +2443,12 @@ msgstr "این از فرم محصول می‌آید."
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__price_extra
 msgid "This is the sum of the extra price of all attributes"
-msgstr ""
+msgstr "این مجموع قیمت اضافی همه ویژگی ها است"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note is added to sales orders and invoices."
-msgstr ""
+msgstr "این یادداشت به سفارشات فروش و فاکتورها اضافه می شود."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -2462,6 +2462,8 @@ msgid ""
 "This pricelist will be used, instead of the default one, for sales to the "
 "current partner"
 msgstr ""
+"این لیست قیمت به جای لیست پیش فرض برای فروش به "
+"شریک فعلی استفاده خواهد شد"
 
 #. module: product
 #: code:addons/product/models/uom_uom.py:0
@@ -2471,6 +2473,9 @@ msgid ""
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %s and 1."
 msgstr ""
+"این دقت گرد کردن بالاتر از دقت اعشاری (%s رقم) است.\n"
+"این ممکن است باعث ناهماهنگی در محاسبات شود.\n"
+"لطفاً دقتی را بین %s و 1 تنظیم کنید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_code
