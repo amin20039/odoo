@@ -1115,7 +1115,8 @@ msgstr "در صورت بررسی ، برخی پیام ها خطای تحویل �
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_id
 msgid ""
 "If not set, the vendor price will apply to all variants of this product."
-msgstr "اگر قیمت فروشنده تعیین نشود برای تمام گونه‌های محصول اعمال می‌شود."
+msgstr ""
+"اگر قیمت فروشنده تعیین نشود برای تمام گونه‌های محصول اعمال می‌شود."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
@@ -1559,7 +1560,8 @@ msgid ""
 "On the product %s you cannot associate the value %s with the attribute %s "
 "because they do not match."
 msgstr ""
-"در محصول %s نمی توانید مقدار %s را با ویژگی %s مرتبط کنید زیرا مطابقت ندارند."
+"در محصول %s نمی توانید مقدار %s را با ویژگی %s مرتبط کنید زیرا"
+"مطابقت ندارند."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -1568,6 +1570,8 @@ msgid ""
 "On the product %s you cannot transform the attribute %s into the attribute "
 "%s."
 msgstr ""
+"در محصول %s نمی توانید ویژگی %s را به ویژگی تبدیل کنید"
+"%s."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__base_pricelist_id
@@ -1619,19 +1623,19 @@ msgstr "درصد قیمت"
 #: code:addons/product/static/src/js/product_pricelist_report.js:0
 #, python-format
 msgid "Please enter a positive whole number"
-msgstr ""
+msgstr "لطفا یک عدد مثبت وارد کنید"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid "Please specify the category for which this rule should be applied"
-msgstr ""
+msgstr "لطفاً دسته بندی را که این قانون باید برای آن اعمال شود، مشخص کنید"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid "Please specify the product for which this rule should be applied"
-msgstr ""
+msgstr "لطفاً محصولی را که این قانون باید برای آن اعمال شود، مشخص کنید"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
@@ -1639,6 +1643,7 @@ msgstr ""
 msgid ""
 "Please specify the product variant for which this rule should be applied"
 msgstr ""
+"لطفاً نوع محصولی را که این قانون باید برای آن اعمال شود، مشخص کنید"
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_weight_in_lbs__1
@@ -1685,14 +1690,14 @@ msgstr "قواعد قیمتی"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_surcharge
 msgid "Price Surcharge"
-msgstr ""
+msgstr "اضافه قیمت"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__list_price
 #: model:ir.model.fields,help:product.field_product_template__list_price
 #: model:ir.model.fields,help:product.field_product_template__lst_price
 msgid "Price at which the product is sold to customers."
-msgstr ""
+msgstr "قیمتی که محصول با آن به مشتریان فروخته می شود."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_kanban_view
@@ -1717,7 +1722,7 @@ msgstr "لیست قیمت"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__applied_on
 msgid "Pricelist Item applicable on selected option"
-msgstr ""
+msgstr "لیست قیمت در گزینه انتخاب شده قابل اجرا است"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__item_ids
