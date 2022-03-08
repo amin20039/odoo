@@ -2129,7 +2129,7 @@ msgstr "توضیحات فروش"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__module_sale_product_matrix
 msgid "Sales Grid Entry"
-msgstr ""
+msgstr "ورودی شبکه فروش"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__list_price
@@ -2191,7 +2191,7 @@ msgstr "تمام رکوردهایی که تاریخ اعمال بعدی قبل �
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist__discount_policy__without_discount
 msgid "Show public price & discount to the customer"
-msgstr ""
+msgstr "قیمت و تخفیف عمومی را به مشتری نشان دهید"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__categ_id
@@ -2199,6 +2199,8 @@ msgid ""
 "Specify a product category if this rule only applies to products belonging "
 "to this category or its children categories. Keep empty otherwise."
 msgstr ""
+"اگر این قاعده فقط برای محصولات متعلق به این "
+"دسته یا دسته های زیرمجموعه ی آن اعمال می شود، یک دسته محصول را مشخص کنید. در غیر این صورت خالی نگه دارید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__product_id
@@ -2224,11 +2226,13 @@ msgid ""
 "Specify the fixed amount to add or substract(if negative) to the amount "
 "calculated with the discount."
 msgstr ""
+"مقدار ثابتی را برای اضافه یا تفریق (اگر منفی بود) به "
+"مقدار محاسبه شده با تخفیف مشخص کنید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_max_margin
 msgid "Specify the maximum amount of margin over the base price."
-msgstr ""
+msgstr "حداکثر میزان حاشیه را بر قیمت پایه مشخص کنید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_min_margin
