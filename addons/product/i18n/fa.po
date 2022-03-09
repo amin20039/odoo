@@ -2483,6 +2483,8 @@ msgid ""
 "This vendor's product code will be used when printing a request for "
 "quotation. Keep empty to use the internal one."
 msgstr ""
+"از کد محصول این فروشنده هنگام چاپ درخواست قیمت استفاده می شود."
+"برای استفاده از فضای درونی ، خالی نگهدارید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_name
@@ -2490,18 +2492,20 @@ msgid ""
 "This vendor's product name will be used when printing a request for "
 "quotation. Keep empty to use the internal one."
 msgstr ""
+"هنگام چاپ درخواست قیمت از نام محصول این فروشنده استفاده می شود." 
+"برای استفاده از داخلی خالی نگه دارید."
 
 #. module: product
 #: model:product.product,description_sale:product.consu_delivery_01
 #: model:product.template,description_sale:product.consu_delivery_01_product_template
 msgid "Three Seater Sofa with Lounger in Steel Grey Colour"
-msgstr ""
+msgstr "مبل راحتی سه نفره به رنگ طوسی استیل"
 
 #. module: product
 #: model:product.product,name:product.consu_delivery_01
 #: model:product.template,name:product.consu_delivery_01_product_template
 msgid "Three-Seat Sofa"
-msgstr ""
+msgstr "مبل سه نفره"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
