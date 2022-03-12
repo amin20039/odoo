@@ -87,7 +87,7 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "%s's opportunity"
-msgstr "فرصت"
+msgstr "فرصت %s"
 
 #. module: crm
 #. openerp-web
@@ -103,19 +103,21 @@ msgstr "اولین فرصتت رو بساز"
 msgid ""
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your"
 " sales cycle."
-msgstr "فرصت ها را راها کنید<b> هنگامی که بین ستون ها پیش میبرید"
+msgstr ""
+"<b>درگ کنید &amp; با پیشرفت در چرخه فروش، فرصت ها </b> "
+"را بین ستون ها رها کنید."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "<b>Predictive Lead Scoring</b>"
-msgstr ""امتیازدهی را پیش بینی کنید
+msgstr "<b>امتیازدهی سرنخ ها را پیش بینی کنید</b>"
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tours/crm.js:0
 #, python-format
 msgid "<b>Write a few letters</b> to look for a company, or create a new one."
-msgstr "تعداد کمی نامه بنویسید<b> برای پیدا کردن یک شرکت یا ساختن یک شرکت جدید"
+msgstr "</b>تعداد کمی نامه بنویسید<b> برای پیدا کردن یک شرکت یا ساختن یک شرکت جدید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_partner_kanban_view
@@ -290,9 +292,10 @@ msgid ""
 "progress bar to filter opportunities based on their next activities' status."
 " Click on the grey area of the progress bar to see all opportunities that "
 "have no next activity."
-msgstr "یک نکته ی عالی برای افزایش کارایی فروش این است که همیشه در هر فرصتی گام بعدی را تعیین کنید.
-برای مدیریت فعالیت های جاری. برای فیلتر کردن فرصت ها بر اساس فعالیت های بعدی روی هر وضعیت نوار پیشرفت کلیک کنید.
-روی قسمت خاکستری نوار پیشرفت کلیک کنید تا همه فرصت هایی کهفعالیت بعدی ندارند را ببینید. "
+msgstr ""
+"یک نکته ی عالی برای افزایش کارایی فروش این است که همیشه در هر فرصتی گام بعدی را تعیین کنید."
+"برای مدیریت فعالیت های جاری. برای فیلتر کردن فرصت ها بر اساس فعالیت های بعدی روی هر وضعیت نوار پیشرفت کلیک کنید."
+"روی قسمت خاکستری نوار پیشرفت کلیک کنید تا همه فرصت هایی کهفعالیت بعدی ندارند را ببینید. "
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -518,7 +521,8 @@ msgstr "جهش"
 msgid ""
 "By saving this change, the customer email and phone number will also be "
 "updated."
-msgstr "با ذخیره کردن این تغییر. ایمیل و شماره موبایل مشتری بروزرسانی خواهد شد"
+msgstr ""
+"با ذخیره کردن این تغییر. ایمیل و شماره موبایل مشتری بروزرسانی خواهد شد"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -589,8 +593,9 @@ msgstr "کانال"
 msgid ""
 "Check this box to filter and qualify incoming requests as leads before "
 "converting them into opportunities and assigning them to a salesperson."
-msgstr "این کادر را علامت بزنید تا درخواست های دریافتی را قبلا به عنوان سرنخ فیلتر کنید.
-تبدیل آن ها به فرصت و واگذاری آن ها به یک فروشنده."
+msgstr ""
+"این کادر را علامت بزنید تا درخواست های دریافتی را قبلا به عنوان سرنخ فیلتر کنید."
+"تبدیل آن ها به فرصت و واگذاری آن ها به یک فروشنده."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_opportunities
@@ -611,8 +616,9 @@ msgstr "شهر"
 msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, "
 "Service"
-msgstr " دسته بندی و تجزیه و تحلیل دسته های سرنخ/فرصت مانند: آموزش
-سرویس"
+msgstr ""
+" دسته بندی و تجزیه و تحلیل دسته های سرنخ/فرصت مانند: آموزش"
+"سرویس"
 
 #. module: crm
 #. openerp-web
@@ -770,7 +776,9 @@ msgstr "تبدیل به فرصت"
 msgid ""
 "Convert visitors of your website into leads and perform data enrichment "
 "based on their IP address"
-msgstr "بازدیدکنندگان وب سایت خود را به سرنخ تبدیل کنید و غنی سازی تاریخ را انجام دهید "
+msgstr ""
+"بازدیدکنندگان وب سایت خود را به سرنخ تبدیل کنید و غنی سازی تاریخ 
+"بر اساس آدرس IP را انجام دهید "
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__email_state__correct
@@ -975,16 +983,18 @@ msgstr "توضیحات"
 msgid ""
 "Did you know emails sent to ${record.alias_id.display_name} generate "
 "opportunities in your pipeline?<br>"
-msgstr "آیا میدانستید ایمیل هایی که به${record.alias_id.display_name} ارسال میشوند
-فرصت های جریان کاری شما را تولید میکنند؟ <br>"
+msgstr ""
+"آیا میدانستید ایمیل هایی که به${record.alias_id.display_name} ارسال میشوند"
+"فرصت های جریان کاری شما را تولید میکنند؟ <br>"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid ""
 "Did you know emails sent to a Sales Team alias generate opportunities in "
 "your pipeline?"
-msgstr "آیا میدانستید ایمیل های ارسال شده به تیم فروش با نام مستعار فرصت هایی 
-در جریان کاری شما ایجاد میکند؟"
+msgstr ""
+"آیا میدانستید ایمیل های ارسال شده به تیم فروش با نام مستعار فرصت هایی "
+"در جریان کاری شما ایجاد میکند؟"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
@@ -992,9 +1002,10 @@ msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
 "fill in all its data? Odoo autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
-msgstr "آیا میدانستید که میتوانید یک شرکت را با نام یا شماره VAT جستجو کنید تا فورا
-تمام داده های آن را پر کنید؟ Odoo همه چیز را برای شما به صودت خودکار تکمیل میکند: لوگو،
-آدرس، اندازه شرکت، اطلاعات کسب و کار، حساب های رسانه های اجتماعی و غیره."
+msgstr ""
+"آیا میدانستید که میتوانید یک شرکت را با نام یا شماره VAT جستجو کنید تا فورا"
+"تمام داده های آن را پر کنید؟ Odoo همه چیز را برای شما به صورت خودکار تکمیل میکند: لوگو،"
+"آدرس، اندازه شرکت، اطلاعات کسب و کار، حساب های رسانه های اجتماعی و غیره."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
@@ -1002,9 +1013,10 @@ msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
 " top-right map icon? A lot of screens in Odoo can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
-msgstr "آیا میدانستید میتوانید با استفاده از نماد نقشه بالا سمت راست، فهرستی 
-از فرصت ها را به نمای نقشه تبدیل کنید؟ تعداد زیادی صفحه در Odoo را میتوان به
-نقشه تبدیل کرد: وظیفه. مخاطب ها، سفارشات تحویل، و غیره."
+msgstr ""
+"آیا میدانستید میتوانید با استفاده از نماد نقشه بالا سمت راست، فهرستی "
+"از فرصت ها را به نمای نقشه تبدیل کنید؟ تعداد زیادی صفحه در Odoo را میتوان به"
+"نقشه تبدیل کرد: وظیفه. مخاطب ها، سفارشات تحویل، و غیره."
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
@@ -1110,11 +1122,12 @@ msgid ""
 " Team yet. This can be made when converting them into opportunities. "
 "Incoming emails can be automatically assigned to specific Sales Teams. To do"
 " so, set an email alias on the Sales Team."
-msgstr "ایمیل های دریافت شده به آن آدرس، سرنخ های جدیدی ایجاو میکند که هنوز به هیچ 
-تیم فروش اختصاص داده نشده است. "
-این میتواند زمانی انجام شود که آنها را به فرصت تبدیل کنید."
-ایمیل های دریافتی را میتوان بطور خودکار به تیم فروش خاصی اختصاص داد. برای انجام این کار، 
-یک نام مستعار ایمیل در تیم فروش تنظیم کنید."
+msgstr ""
+"ایمیل های دریافت شده به آن آدرس، سرنخ های جدیدی ایجاو میکند که هنوز به هیچ "
+"تیم فروش اختصاص داده نشده است. "
+"این میتواند زمانی انجام شود که آنها را به فرصت تبدیل کنید."
+"ایمیل های دریافتی را میتوان بطور خودکار به تیم فروش خاصی اختصاص داد. برای انجام این کار، "
+"یک نام مستعار ایمیل در تیم فروش تنظیم کنید."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
