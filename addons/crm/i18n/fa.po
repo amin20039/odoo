@@ -1659,7 +1659,7 @@ msgstr "فیلدهای فرکانس امتیازدهی سرنخ در رشته"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date
 msgid "Lead Scoring Starting Date"
-msgstr ""
+msgstr "تاریخ شروع امتیازدهی سرنخ"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date_str
@@ -1712,7 +1712,8 @@ msgid ""
 "Leads Analysis allows you to check different CRM related information like "
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
-msgstr "تجزیه و تحلیل سرنخ ها به شما امکان می دهد اطلاعات مختلف مرتبط با CRM "
+msgstr ""
+"تجزیه و تحلیل سرنخ ها به شما امکان می دهد اطلاعات مختلف مرتبط با CRM "
 "مانند تاخیرهای درمان یا تعداد سرنخ ها را در هر حالت بررسی کنید."
 "شما می توانید تجزیه و تحلیل سرنخ های خود را بر اساس گروه های مختلف مرتب کنید تا تجزیه و تحلیل دقیقی داشته باشید."
 
@@ -1746,7 +1747,8 @@ msgstr "سرنخ هایی که اختصاص داده نشده"
 msgid ""
 "Leads that you selected that have duplicates. If the list is empty, it means"
 " that no duplicates were found"
-msgstr "سرنخ هایی که انتخاب کردید و دارای موارد تکراری هستند"
+msgstr ""
+"سرنخ هایی که انتخاب کردید و دارای موارد تکراری هستند"
 "اگر لیست خالی است، این بدان معنی است که هیچ تکراری یافت نشد"
 
 #. module: crm
@@ -1789,7 +1791,8 @@ msgstr "انتساب به یک مشتری موجود"
 msgid ""
 "Linked partner (optional). Usually created when converting the lead. You can"
 " find a partner by its Name, TIN, Email or Internal Reference."
-msgstr "شریک مرتبط (اختیاری). معمولاً هنگام تبدیل سرنخ ایجاد می شود."
+msgstr ""
+"شریک مرتبط (اختیاری). معمولاً هنگام تبدیل سرنخ ایجاد می شود."
 "می توانید شریکی را با نام، TIN، ایمیل یا مرجع داخلی پیدا کنید."
 
 #. module: crm
@@ -1804,7 +1807,8 @@ msgstr "فهرست CC از ایمیل های دریافتی."
 msgid ""
 "Looks like nothing is planned. :(<br><br><i>Tip : Schedule activities to "
 "keep track of everything you have to do!</i>"
-msgstr "به نظر می رسد هیچ چیز برنامه ریزی نشده است. :(<br><br><i>نکته :"
+msgstr ""
+"به نظر می رسد هیچ چیز برنامه ریزی نشده است. :(<br><br><i>نکته :"
 " فعالیت ها را برنامه ریزی کنید تا «همه چیزهایی را که باید انجام دهید پیگیری کنید"
 
 #. module: crm
@@ -1820,7 +1824,7 @@ msgstr "باخته"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__lost_count
 msgid "Lost Count"
-msgstr ""
+msgstr "حساب از دست رفته"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_lost_action
@@ -2146,7 +2150,9 @@ msgstr "تعداد پیام های خوانده نشده"
 msgid ""
 "Odoo helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
-msgstr "Odoo به شما کمک می کند تا جریان کاری فروش خود را پیگیری کنید تا فروش بالقوه را دنبال کنید و درآمدهای آینده خود را بهتر پیش بینی کنید."
+msgstr ""
+"Odoo به شما کمک می کند تا جریان کاری فروش خود را پیگیری کنید"
+" تا فروش بالقوه را دنبال کنید و درآمدهای آینده خود را بهتر پیش بینی کنید."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
@@ -2155,9 +2161,11 @@ msgid ""
 "opportunity based on your history. You can always update the success rate "
 "manually, but if you let Odoo do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
-msgstr "موتور هوش مصنوعی Odoo میزان موفقیت هر فرصت را بر اساس سابقه شما پیش بینی می کند."
+msgstr ""
+"موتور هوش مصنوعی Odoo میزان موفقیت هر فرصت را بر اساس سابقه شما پیش بینی می کند."
 "همیشه می توانید نرخ موفقیت را به صورت دستی به روزرسانی کنید، اما اگر به Odoo اجازه دهید این کار را انجام دهد،"
-"در حالی که فرصت در چرخه فروش شما پیش می رود، امتیاز به روزرسانی می شود."
+"در حالی که فرصت در چرخه فروش شما"
+" پیش می رود، امتیاز به روزرسانی می شود."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
@@ -2205,10 +2213,12 @@ msgid ""
 "deadlines or the number of interactions per opportunity. This report is "
 "mainly used by the sales manager in order to do the periodic review with the"
 " channels of the sales pipeline."
-msgstr "تجزیه و تحلیل فرصت ها به شما امکان می دهد با اطلاعاتی مانند"
+msgstr ""
+"تجزیه و تحلیل فرصت ها به شما امکان می دهد با اطلاعاتی مانند"
 "درآمد مورد انتظار، هزینه برنامه ریزی شده، مهلت های از دست رفته یا"
 "تعداد تعاملات در هر فرصت، به فرصت های خود دسترسی داشته باشید."
-"این گزارش عمدتاً توسط مدیر فروش به منظور بررسی دوره ای با کانال های جریان کاری فروش استفاده می شود."
+"این گزارش عمدتاً توسط مدیر فروش به منظور بررسی دوره ای با"
+" کانال های جریان کاری فروش استفاده می شود."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_partner__opportunity_count_ids
@@ -2298,8 +2308,10 @@ msgid ""
 "Optional ID of a thread (record) to which all incoming messages will be "
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
-msgstr "شناسه اختیاری یک موضوع (رکورد) که تمام پیام های دریافتی به آن پیوست می شود، حتی اگر به آن پاسخ نداده باشند."
-"اگر تنظیم شود، ایجاد رکوردهای جدید به طور کامل غیرفعال می شود"
+msgstr ""
+"شناسه اختیاری یک موضوع (رکورد) که تمام پیام های دریافتی به آن پیوست می شود،"
+" حتی اگر به آن پاسخ نداده باشند.اگر تنظیم شود، ایجاد "
+"رکوردهای جدید به طور کامل غیرفعال می شود"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
@@ -2359,7 +2371,8 @@ msgid ""
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
-msgstr "مدل والدین دارای نام مستعار. مدلی که مرجع نام مستعار را نگه می دارد لزوماً مدلی نیست که توسط"
+msgstr ""
+"مدل والدین دارای نام مستعار. مدلی که مرجع نام مستعار را نگه می دارد لزوماً مدلی نیست که توسط"
 "alias_model_id (مثال: پروژه (parent_model) و task (model)) ارائه شده است."
 
 #. module: crm
@@ -2422,7 +2435,8 @@ msgid ""
 "                missed deadlines or the number of interactions per opportunity. This report is\n"
 "                mainly used by the sales manager in order to do the periodic review with the\n"
 "                teams of the sales pipeline."
-msgstr "جزیه و تحلیل خط لوله با اطلاعاتی مانند درآمد مورد انتظار، هزینه برنامه ریزی شده،\n ضرب الاجل های از دست رفته"
+msgstr ""
+"جزیه و تحلیل خط لوله با اطلاعاتی مانند درآمد مورد انتظار، هزینه برنامه ریزی شده،\n ضرب الاجل های از دست رفته"
 "یا تعداد تعاملات در هر فرصت، به فرصت هایتان دسترسی فوری می دهد."
 "این گزارش\n عمدتاً توسط مدیر فروش به منظور انجام بررسی دوره ای با تیم های \n خط لوله فروش استفاده می شود"
 
@@ -2443,7 +2457,9 @@ msgstr "لطفا حداقل 3 رقم را هنگام جستجو در تلفن و
 msgid ""
 "Please select more than one element (lead or opportunity) from the list "
 "view."
-msgstr "لطفاً بیش از یک عنصر (سرنخ یا فرصت) را از نمای فهرست انتخاب کنید."
+msgstr ""
+"لطفاً بیش از یک عنصر (سرنخ یا فرصت) را از "
+"نمای فهرست انتخاب کنید."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_contact
@@ -2643,7 +2659,8 @@ msgstr "جستجوی فرصت ها"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_mail_client_extension
 msgid ""
 "See and manage users, companies, and leads from our mail client extensions."
-msgstr "کاربران، شرکت ها و سرنخ ها را از برنامه های افزودنی مشتری ایمیل ما ببینید و مدیریت کنید"
+msgstr ""
+"کاربران، شرکت ها و سرنخ ها را از برنامه های افزودنی مشتری ایمیل ما ببینید و مدیریت کنید"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
@@ -2667,7 +2684,9 @@ msgstr "دنباله"
 msgid ""
 "Set Recurring Plans on Opportunities to display the contracts' renewal "
 "periodicity<br>(e.g: Monthly, Yearly)."
-msgstr "برای نمایش دوره ای تمدید قراردادها، برنامه های تکرارشونده را روی فرصت ها تنظیم کنید<br>(به عنوان مثال: ماهانه، سالانه)"
+msgstr ""
+"برای نمایش دوره ای تمدید قراردادها، برنامه های"
+" تکرارشونده را روی فرصت ها تنظیم کنید<br>(به عنوان مثال: ماهانه، سالانه)"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_stage_action
@@ -2719,8 +2738,9 @@ msgstr "هفت روز به تعویق بیندازید"
 msgid ""
 "Some examples of lost reasons: \"We don't have people/skill\", \"Price too "
 "high\""
-msgstr "چند نمونه از دلایل گمشده: \"ما مهارت مردمی نداریم
-  قیمت خیلی بالا"
+msgstr ""
+"چند نمونه از دلایل گمشده: \"ما مهارت مردمی نداریم"
+"قیمت خیلی بالا"
 
 #. module: crm
 #: model:crm.lead.scoring.frequency.field,name:crm.frequency_field_source_id
@@ -2735,7 +2755,8 @@ msgstr "مبدا"
 msgid ""
 "Specific team that uses this stage. Other teams will not be able to see or "
 "use this stage."
-msgstr "تیم خاصی که از این مرحله استفاده می کنند."
+msgstr ""
+"تیم خاصی که از این مرحله استفاده می کنند."
 "سایر تیم ها نمی توانند این مرحله را ببینند یا از آن استفاده کنند"
 
 #. module: crm
@@ -2804,7 +2825,7 @@ msgid ""
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr "وضعیت بر اساس فعالیت ها\ و سررسید: تاریخ سررسید قبلاً گذشته است\n امروز: تاریخ فعالیت امروز است\ برنامه ریزی شده: فعالیت های آینده"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__street
