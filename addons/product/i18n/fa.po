@@ -2917,6 +2917,7 @@ msgstr "شما نمی توانید دسته های بازگشتی ایجاد ک�
 msgid ""
 "You cannot create two values with the same name for the same attribute."
 msgstr ""
+"شما نمی توانید دو مقدار با نام یکسان برای یک ویژگی ایجاد کنید."
 
 #. module: product
 #: code:addons/product/models/decimal_precision.py:0
@@ -2925,6 +2926,8 @@ msgid ""
 "You cannot define the decimal precision of 'Account' as greater than the "
 "rounding factor of the company's main currency"
 msgstr ""
+"شما نمی توانید دقت اعشاری "حساب" را بیشتر از"
+"ضریب مرزی ارز اصلی شرکت تعریف کنید."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2933,6 +2936,8 @@ msgid ""
 "You cannot delete the attribute %s because it is used on the following products:\n"
 "%s"
 msgstr ""
+"شما نمی توانید ویژگی %s را حذف کنید زیرا در محصولات زیر استفاده می شود:\n"
+"%s"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2942,12 +2947,15 @@ msgid ""
 "%s\n"
 "If the value has been associated to a product in the past, you will not be able to delete it."
 msgstr ""
+"شما نمی توانید مقدار %s را حذف کنید زیرا در محصولات زیر استفاده می شود:\n"
+"%s\n"
+"اگر مقدار در گذشته به محصولی مرتبط شده باشد، نمی توانید آن را حذف کنید."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "You cannot delete value %s because it was used in some products."
-msgstr ""
+msgstr "شما نمی توانید مقدار %s را حذف کنید زیرا در برخی از محصولات استفاده شده است."
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
@@ -2956,6 +2964,8 @@ msgid ""
 "You cannot delete this pricelist (%s), it is used in other pricelist(s) : \n"
 "%s"
 msgstr ""
+"شما نمی توانید این لیست قیمت (% s) را حذف کنید، در لیست قیمت های دیگر استفاده می شود: \ n"
+"%s"
 
 #. module: product
 #: code:addons/product/models/product.py:0
