@@ -301,17 +301,17 @@ msgstr "یک توضیح کوتاه"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid "A unique value"
-msgstr ""
+msgstr "یک ارزش منحصر به فرد"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__contact_ab_pc
 msgid "A/B Testing percentage"
-msgstr ""
+msgstr "درصد تست A/B"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_event
 msgid "ALL DAY"
-msgstr ""
+msgstr "هر روز"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__message_needaction
@@ -349,17 +349,17 @@ msgstr "آیکون نوع فعالیت"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_social
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_social_left
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "تمامی حقوق محفوظ است"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__unique_ab_testing
 msgid "Allow A/B Testing"
-msgstr ""
+msgstr "آزمایش A/B را مجاز کنید"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Allow recipients to blacklist themselves"
-msgstr ""
+msgstr "به گیرندگان اجازه دهید خود را در لیست سیاه قرار دهند"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__show_blacklist_buttons
@@ -367,6 +367,8 @@ msgid ""
 "Allow the recipient to manage himself his state in the blacklist via the "
 "unsubscription page."
 msgstr ""
+"به گیرنده اجازه دهید تا از طریق صفحه لغو اشتراک، وضعیت خود را در"
+"لیست سیاه مدیریت کند."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
@@ -377,6 +379,10 @@ msgid ""
 "                                   The 'come Back' button will always be "
 "visible in any case to allow leads and partners to re-subscribe."
 msgstr ""
+"به گیرنده اجازه دهید تا از طریق صفحه لغو اشتراک، وضعیت خود را در "
+"لیست سیاه مدیریت کند.                                     اگر این گزینه فعال باشد،"
+"دکمه لیست سیاه من در صفحه لغو اشتراک پنهان می شود."
+"                                  دکمه بازگشت همیشه در هر صورت قابل مشاهده خواهد بود تا به سرنخ ها و شرکا اجازه اشتراک مجدد بدهد."
 
 #. module: mass_mailing
 #. openerp-web
@@ -390,7 +396,7 @@ msgstr ""
 #: code:addons/mass_mailing/static/src/js/unsubscribe.js:0
 #, python-format
 msgid "An error occured. Please try again later or contact us."
-msgstr ""
+msgstr "خطایی رخ داد. لطفاً بعداً دوباره امتحان کنید یا با ما تماس بگیرید."
 
 #. module: mass_mailing
 #. openerp-web
