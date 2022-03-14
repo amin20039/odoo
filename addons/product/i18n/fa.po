@@ -2269,7 +2269,7 @@ msgid ""
 "Planned: Future activities."
 msgstr ""
 "وضعیت بر اساس فعالیت\n"
-"Overdue: Due date is already passed\n"
+"سررسید: تاریخ سررسید گذشته است\n"
 "امروز:تاریخ فعالیت امروز است\n"
 "برنامه‌ریزی شده: برنامه‌های آینده."
 
@@ -2622,7 +2622,7 @@ msgstr "استفاده شده بر محصولات"
 #: model:ir.model.fields,field_description:product.field_product_product__valid_product_template_attribute_line_ids
 #: model:ir.model.fields,field_description:product.field_product_template__valid_product_template_attribute_line_ids
 msgid "Valid Product Attribute Lines"
-msgstr ""
+msgstr "خطوط مشخصه محصول معتبر"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -2638,7 +2638,7 @@ msgstr "مقدار"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__price_extra
 msgid "Value Price Extra"
-msgstr ""
+msgstr "ارزش قیمت اضافی"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__value_ids
@@ -2691,18 +2691,18 @@ msgstr "اطلاعات گونه"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__price_extra
 msgid "Variant Price Extra"
-msgstr ""
+msgstr "قیمت اضافی"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__variant_seller_ids
 #: model:ir.model.fields,field_description:product.field_product_template__variant_seller_ids
 msgid "Variant Seller"
-msgstr ""
+msgstr "فروشنده انواع"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.attribute_tree_view
 msgid "Variant Values"
-msgstr ""
+msgstr "ارزش انواع"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
@@ -2721,7 +2721,7 @@ msgstr "گونه ها"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variants Creation Mode"
-msgstr ""
+msgstr "حالت ایجاد انواع"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__name
@@ -2771,13 +2771,13 @@ msgstr "فروشندگان"
 #: model:product.product,name:product.product_product_2
 #: model:product.template,name:product.product_product_2_product_template
 msgid "Virtual Home Staging"
-msgstr ""
+msgstr "صحنه سازی خانه مجازی"
 
 #. module: product
 #: model:product.product,name:product.product_product_1
 #: model:product.template,name:product.product_product_1_product_template
 msgid "Virtual Interior Design"
-msgstr ""
+msgstr "طراحی داخلی مجازی"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__volume
@@ -2789,18 +2789,18 @@ msgstr "حجم"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Volume UoM"
-msgstr ""
+msgstr "حجم UoM"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__product_volume_volume_in_cubic_feet
 msgid "Volume unit of measure"
-msgstr ""
+msgstr "واحد اندازه گیری حجم"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__volume_uom_name
 #: model:ir.model.fields,field_description:product.field_product_template__volume_uom_name
 msgid "Volume unit of measure label"
-msgstr ""
+msgstr "برچسب واحد اندازه گیری حجم"
 
 #. module: product
 #: code:addons/product/models/decimal_precision.py:0
@@ -2823,18 +2823,18 @@ msgstr "وزن"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Weight UoM"
-msgstr ""
+msgstr "وزن UoM"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__product_weight_in_lbs
 msgid "Weight unit of measure"
-msgstr ""
+msgstr "واحد اندازه گیری وزن"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__weight_uom_name
 #: model:ir.model.fields,field_description:product.field_product_template__weight_uom_name
 msgid "Weight unit of measure label"
-msgstr ""
+msgstr "برچسب واحد اندازه گیری وزن"
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_3
