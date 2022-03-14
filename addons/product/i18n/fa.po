@@ -2851,6 +2851,10 @@ msgid ""
 "This may cause inconsistencies in computations.\n"
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
 msgstr ""
+"شما در حال تنظیم دقت اعشاری کمتر از UOM ها هستید:\n"
+"%s\n"
+"این ممکن است باعث ناهماهنگی در محاسبات شود.\n"
+"لطفاً گرد کردن آن واحدهای اندازه گیری یا ارقام این دقت اعشاری را افزایش دهید."
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -2858,6 +2862,8 @@ msgid ""
 "You can assign pricelists to your customers or select one when creating a "
 "new sales quotation."
 msgstr ""
+"شما می توانید لیست قیمت ها را به مشتریان خود اختصاص دهید یا هنگام ایجاد یک پیشنهاد فروش جدید، "
+"یکی را انتخاب کنید."
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
@@ -2865,6 +2871,7 @@ msgstr ""
 msgid ""
 "You cannot assign the Main Pricelist as Other Pricelist in PriceList Item"
 msgstr ""
+"شما نمی توانید لیست قیمت اصلی را به عنوان سایر لیست قیمت ها در آیتم های لیست قیمت اختصاص دهید"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2873,6 +2880,8 @@ msgid ""
 "You cannot change the Variants Creation Mode of the attribute %s because it is used on the following products:\n"
 "%s"
 msgstr ""
+"شما نمی توانید حالت ایجاد انواع ویژگی %s را تغییر دهید زیرا در محصولات زیر استفاده می شود:\n"
+"%s"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2881,24 +2890,27 @@ msgid ""
 "You cannot change the attribute of the value %s because it is used on the "
 "following products:%s"
 msgstr ""
+"شما نمی توانید ویژگی مقدار %s را تغییر دهید زیرا در محصولات"
+"زیر استفاده می شود: %s
+"%s"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "You cannot change the product of the value %s set on product %s."
-msgstr ""
+msgstr "شما نمی توانید حاصلضرب مقدار %s را روی محصول %s تغییر دهید."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "You cannot change the value of the value %s set on product %s."
-msgstr ""
+msgstr "شما نمی توانید مقدار ارزش %s تنظیم شده در محصول %s را تغییر دهید."
 
 #. module: product
 #: code:addons/product/models/product.py:0
 #, python-format
 msgid "You cannot create recursive categories."
-msgstr ""
+msgstr "شما نمی توانید دسته های بازگشتی ایجاد کنید."
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_attribute_value_value_company_uniq
