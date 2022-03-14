@@ -2973,6 +2973,7 @@ msgstr ""
 msgid ""
 "You cannot delete this product category, it is the default generic category."
 msgstr ""
+"شما نمی توانید این دسته محصول را حذف کنید، این دسته بندی عمومی پیش فرض است."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2980,6 +2981,7 @@ msgstr ""
 msgid ""
 "You cannot move the attribute %s from the product %s to the product %s."
 msgstr ""
+"شما نمی توانید ویژگی %s را از محصول %s به محصول %s منتقل کنید."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2989,6 +2991,8 @@ msgid ""
 "You cannot update related variants from the values. Please update related "
 "values from the variants."
 msgstr ""
+"شما نمی توانید انواع مرتبط را از مقادیر به روز کنید. لطفاً مقادیر"
+"مرتبط را از انواع به روزرسانی کنید."
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action
@@ -2997,8 +3001,8 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service."
 msgstr ""
-"شما باید برای هر چیزی که می‌فروشید یک محصول تعریف کنید،\n"
-"                چه این محصول فیزیکی باشد، یک کالای مصرفی یا خدمتی که شما به مشتری ارائه می‌دهید."
+"شما باید برای هر چیزی که می فروشید یک محصول تعریف کنید،\n"
+"                چه این محصول فیزیکی باشد، یک کالای مصرفی یا خدمتی که شما به مشتری ارائه می دهید."
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_variant_action
@@ -3008,10 +3012,10 @@ msgid ""
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
-"برای هرچیزی باید یک محصول تعریف کنید؛ می‌خرید یا می‌فروشید,\n"
+"برای هرچیزی باید یک محصول تعریف کنید؛ می خرید یا می فروشید,\n"
 "                چه یک محصول قابل انبار شدن باشد، مصرفی یا یک خدمت.\n"
-"                محصول از اطلاعات داده شده فرآیند فروش را ساده می‌کند:\n"
-"                قیمت، یادداشت‌ها در فاکتور، اطلاعات حسابداری، روش‌های تدارکات و غیره."
+"                محصول از اطلاعات داده شده فرآیند فروش را ساده می کند:\n"
+"                قیمت، یادداشت ها در فاکتور، اطلاعات حسابداری، روش های تدارکات و غیره."
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
@@ -3021,6 +3025,10 @@ msgid ""
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
+"شما باید برای هر چیزی که می فروشید، محصولی تعریف کنید، خواه این محصول فیزیکی باشد،\n"
+"                یک ماده مصرفی یا خدماتی که به مشتریان ارائه می دهید.\n"
+"                فرم محصول حاوی اطلاعاتی برای ساده کردن فرآیند فروش است:\n"
+"                قیمت، یادداشت های موجود در نقل قول، داده های حسابداری، روش های تدارکات و غیره."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -3041,12 +3049,12 @@ msgstr "برای مثال عضویت اودو سازمانی"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "e.g. USD Retailers"
-msgstr ""
+msgstr "به عنوان مثال، خرده فروشان دلار آمریکا"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "per"
-msgstr ""
+msgstr "مطابق"
 
 #. module: product
 #: code:addons/product/models/product.py:0
