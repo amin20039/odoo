@@ -459,7 +459,7 @@ msgstr "تعداد پیوست"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__attachment_ids
 msgid "Attachments"
-msgstr "پیوست‌ها"
+msgstr "پیوست ها"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
@@ -572,7 +572,7 @@ msgstr "برچسب های کمپین"
 #: model:ir.actions.act_window,name:mass_mailing.action_view_utm_campaigns
 #: model:ir.ui.menu,name:mass_mailing.menu_email_campaigns
 msgid "Campaigns"
-msgstr "کمپین‌ها"
+msgstr "کمپین ها"
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_utm_campaigns
@@ -651,7 +651,7 @@ msgstr "برای ویرایش این پاراگراف روی آن کلیک کن�
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_view_search
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Clicked"
-msgstr ""
+msgstr "کلیک شده"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
@@ -1259,8 +1259,7 @@ msgstr "آیکون برای نشان دادن یک فعالیت استثنا."
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__message_needaction
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
-"اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت."
+msgstr "اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__unique_ab_testing
@@ -1312,7 +1311,7 @@ msgstr "اینستاگرام"
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_trace__failure_type__recipient
 msgid "Invalid email address"
-msgstr ""
+msgstr "آدرس ایمیل نامعتبر است"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__message_is_follower
@@ -1323,22 +1322,22 @@ msgstr "دنبال می کند"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_list__is_public
 msgid "Is Public"
-msgstr ""
+msgstr "عمومی است"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__kpi_mail_required
 msgid "KPI mail required"
-msgstr ""
+msgstr "نامه KPI مورد نیاز است"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__keep_archives
 msgid "Keep Archives"
-msgstr ""
+msgstr "آرشیوها را نگه دارید"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
 msgid "LOGIN"
-msgstr ""
+msgstr "ورود به حساب"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mass_mailing_kpi_link_trackers
@@ -1376,7 +1375,7 @@ msgstr "آخرین تغییر در"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_view_search
 msgid "Last State Update"
-msgstr ""
+msgstr "آخرین مرحله بروزرسانی"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__write_uid
@@ -1405,7 +1404,7 @@ msgstr "آخرین به روز رسانی در"
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_trace__state_update
 msgid "Last state update of the mail"
-msgstr ""
+msgstr "آخرین مرحله بروزرسانی ایمیل"
 
 #. module: mass_mailing
 #. openerp-web
@@ -1413,7 +1412,7 @@ msgstr ""
 #: code:addons/mass_mailing/static/src/js/tours/mass_mailing_tour.js:0
 #, python-format
 msgid "Let's try the Email Marketing app."
-msgstr ""
+msgstr "بیایید برنامه بازاریابی ایمیلی را امتحان کنیم."
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_link_tracker
